@@ -9,9 +9,7 @@ Für den Bereich "STT/TTS" werden dazu jedoch gute Trainings-Testdaten (bspw. zu
 Ich möchte meinen kleinen bescheidenen Beitrag leisten und stelle meine Stimme unter der CC0 Lizenz zur Verfügung. Die notwendigen Sätze entstammen dem Mozilla Common Voice Projekt und die Aufzeichnung der Stimme habe ich mit Mimic-Recording-Studio (von MyCroft) vorgenommen.
 
 # Klingt gut. Was genau gibt es hier.
-* Der gesamte deutsche Corpus wie er von Common Voice zur Verfügung gestellt wird (Basis clips.tsv)
-* Der Corpus als CSV Format, dass er vom Mimic-Recording-Studio verwendet werden kann
-* Die SQlite DB vom Mimic-Recording-Studio mit meinen (bisher) eingesprochenen Sätzen
+* Der Corpus als CSV Format, so dass er vom Mimic-Recording-Studio verwendet werden kann (Datenquelle: Mozilla commion voice (anteilig))
 * Die LJSpeech-1.1 Struktur (metadata.csv und zugehörige WAV-Dateien) zur Verarbeitung mit mimic2 (basiert auf Tacotron)
 
 # Aktueller Stand
@@ -33,9 +31,7 @@ For the area "STT / TTS", however, good training test data (eg for deep learning
 I want to make my small modest contribution and make my voice available under the CC0 license. The necessary sentences came from the Mozilla Common Voice project and I recorded the voice with Mimic Recording Studio (by MyCroft).
 
 # Sounds good. What exactly is here.
-* The entire German corpus as provided by Common Voice (base clips.tsv)
-* The Corpus as a CSV format that can be used by the Mimic recording studio
-* The SQlite DB from the Mimic recording studio with my (previously) spoken sentences
+* The Corpus as a CSV format that can be used by the Mimic recording studio (datasource is partial mozilla common voice project)
 * The LJSpeech-1.1 structure (metadata.csv and associated WAV files) for processing with mimic2 (based on Tacotron)
 
 # Current status
@@ -53,3 +49,4 @@ Also, my thanks go to the projects / communities of Mozilla Common Voice and MyC
 * https://community.mycroft.ai/
 * https://voice.mozilla.org/
 * https://github.com/mozilla/CorporaCreator
+* https://raw.githubusercontent.com/mozilla/voice-web/master/server/data/de/sentence-collector.txt
