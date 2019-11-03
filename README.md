@@ -11,6 +11,7 @@ Ich möchte meinen kleinen bescheidenen Beitrag leisten und stelle meine Stimme 
 # Klingt gut. Was genau gibt es hier.
 * Der Corpus als CSV Format, so dass er vom Mimic-Recording-Studio verwendet werden kann (Datenquelle: Mozilla commion voice (anteilig))
 * Die LJSpeech-1.1 Struktur (metadata.csv und zugehörige WAV-Dateien) zur Verarbeitung mit mimic2 (basiert auf Tacotron)
+>> Aufgrund von Github-Größenbeschränkung liegen die gezippten WAV-Dateien im Google Drive ([Download-Link](https://drive.google.com/drive/folders/12wihZ6X7OYf4-7GG4b-o-f5RaNNPKsqA?usp=sharing)
 
 # Aktueller Stand
 Aufnahmen 3.000 von 20.000 Sätzen mit einer gesprochenen Länge von 5 Stunden, 10 Minuten und einer Sprechgeschwindgkeit von ca. 12-13 Zeichen pro Sekunde.
@@ -33,6 +34,7 @@ I want to make my small modest contribution and make my voice available under th
 # Sounds good. What exactly is here.
 * The Corpus as a CSV format that can be used by the Mimic recording studio (datasource is partial mozilla common voice project)
 * The LJSpeech-1.1 structure (metadata.csv and associated WAV files) for processing with mimic2 (based on Tacotron)
+>> Due github size restrictions the compressed wav-files can be downloaded from google drive ([Download-Link](https://drive.google.com/drive/folders/12wihZ6X7OYf4-7GG4b-o-f5RaNNPKsqA?usp=sharing)
 
 # Current status
 Record 3,000 of 20,000 sentences with a spoken length of 5 hours, 10 minutes and a speech speed of approximately 12-13 characters per second.
@@ -42,6 +44,13 @@ Please do not use it for evil!
 If you use my (concrete) TTS voice I would be grateful for an info about the project and a demo.
 
 Also, my thanks go to the projects / communities of Mozilla Common Voice and MyCroft / Mimic. Especially to Lindsay Saunders (Mozilla) for nice contact and eltocino, gras64, dominik from the MyCroft community for the patience to patiently answer my beginner questions :-).
+
+# Mimic analyse(.py) results (after 5k spoken phrases)
+![char_len_vs_avg_secs](./img/5000_phrases_char_len_vs_avg_secs.png?raw=true "char_len_vs_avg_secs")
+![char_len_vs_med_secs](./img/5000_phrases_char_len_vs_med_secs.png?raw=true "char_len_vs_med_secs")
+![char_len_vs_mode_secs](./img/5000_phrases_char_len_vs_mode_secs.png?raw=true "char_len_vs_mode_secs")
+![char_len_vs_num_samples](./img/5000_phrases_char_len_vs_num_samples.png?raw=true "char_len_vs_num_samples")
+![char_len_vs_std](./img/5000_phrases_char_len_vs_std.png?raw=true "char_len_vs_std")
 
 # Links
 * https://voice.mozilla.org/
