@@ -34,7 +34,7 @@ I want to make my small modest contribution and make my voice available under th
 # Sounds good. What exactly is here.
 * The Corpus as a CSV format that can be used by the Mimic recording studio (datasource is partial mozilla common voice project)
 * The LJSpeech-1.1 structure (metadata.csv and associated WAV files) for processing with mimic2 (based on Tacotron)
->> Due github size restrictions the compressed wav-files can be downloaded from google drive ([Download-Link](https://drive.google.com/drive/folders/12wihZ6X7OYf4-7GG4b-o-f5RaNNPKsqA?usp=sharing)
+>> Due github size restrictions the compressed wav-files can be downloaded from google drive ([Download-Link](https://drive.google.com/open?id=1NTi-4r3EWl5dw0k2o4Xh92G0OHvhoxAJ)
 
 # Current status
 Record 3,000 of 20,000 sentences with a spoken length of 5 hours, 10 minutes and a speech speed of approximately 12-13 characters per second.
