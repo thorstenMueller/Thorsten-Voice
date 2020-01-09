@@ -11,10 +11,19 @@ Ich möchte meinen kleinen bescheidenen Beitrag leisten und stelle meine Stimme 
 # Klingt gut. Was genau gibt es hier.
 * Der Corpus als CSV Format, so dass er vom Mimic-Recording-Studio verwendet werden kann (Datenquelle: Mozilla commion voice (anteilig))
 * Die LJSpeech-1.1 Struktur (metadata.csv und zugehörige WAV-Dateien) zur Verarbeitung mit mimic2 (basiert auf Tacotron)
->> Aufgrund von Github-Größenbeschränkung liegen die gezippten WAV-Dateien im Google Drive ([Download-Link](https://drive.google.com/open?id=1NTi-4r3EWl5dw0k2o4Xh92G0OHvhoxAJ)
+> Aufgrund von Github-Größenbeschränkung liegen die gezippten WAV-Dateien im Google Drive ([Download-Link](https://drive.google.com/open?id=1NTi-4r3EWl5dw0k2o4Xh92G0OHvhoxAJ)
 
-# Aktueller Stand
-Aufnahmen 3.000 von 20.000 Sätzen mit einer gesprochenen Länge von 5 Stunden, 10 Minuten und einer Sprechgeschwindgkeit von ca. 12-13 Zeichen pro Sekunde.
+# Beispiele
+## Orinalaufnahme
+Um einen Eindruck von meiner Stimme zu bekommen habe ich einige Original Aufnahmedateien als Beispiel im Ordner /samples/original_recording bereitgestellt.
+
+* [Sample 01](./samples/original_recording/recorded_sample_01.wav )
+* [Sample 02](./samples/original_recording/recorded_sample_02.wav )
+* [Sample 03](./samples/original_recording/recorded_sample_03.wav )
+* [Sample 04](./samples/original_recording/recorded_sample_04.wav )
+* [Sample 05](./samples/original_recording/recorded_sample_05.wav )
+* [Sample 06](./samples/original_recording/recorded_sample_06.wav )
+* [Sample 07](./samples/original_recording/recorded_sample_07.wav )
 
 # Sonstiges
 Bitte verwende es nicht für Böses!
@@ -36,8 +45,6 @@ I want to make my small modest contribution and make my voice available under th
 * The LJSpeech-1.1 structure (metadata.csv and associated WAV files) for processing with mimic2 (based on Tacotron)
 >> Due github size restrictions the compressed wav-files can be downloaded from google drive ([Download-Link](https://drive.google.com/open?id=1NTi-4r3EWl5dw0k2o4Xh92G0OHvhoxAJ)
 
-# Current status
-Record 3,000 of 20,000 sentences with a spoken length of 5 hours, 10 minutes and a speech speed of approximately 12-13 characters per second.
 
 # Miscellaneous
 Please do not use it for evil!
