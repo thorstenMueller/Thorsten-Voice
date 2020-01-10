@@ -17,13 +17,13 @@ Ich möchte meinen kleinen bescheidenen Beitrag leisten und stelle meine Stimme 
 ## Orinalaufnahme
 Um einen Eindruck von meiner Stimme zu bekommen habe ich einige Original Aufnahmedateien als Beispiel im Ordner /samples/original_recording bereitgestellt.
 
-* [Sample 01](./samples/original_recording/recorded_sample_01.wav )
-* [Sample 02](./samples/original_recording/recorded_sample_02.wav )
-* [Sample 03](./samples/original_recording/recorded_sample_03.wav )
-* [Sample 04](./samples/original_recording/recorded_sample_04.wav )
-* [Sample 05](./samples/original_recording/recorded_sample_05.wav )
-* [Sample 06](./samples/original_recording/recorded_sample_06.wav )
-* [Sample 07](./samples/original_recording/recorded_sample_07.wav )
+* [Das Teilen eines Benutzerkontos ist strengstens untersagt.](./samples/original_recording/recorded_sample_01.wav )
+* [Der Prophet spricht stets in Gleichnissen.](./samples/original_recording/recorded_sample_02.wav )
+* [Bitte schmeißt euren Müll nicht einfach in die Walachei.](./samples/original_recording/recorded_sample_03.wav )
+* [So etwas würde mir nie in den Sinn kommen.](./samples/original_recording/recorded_sample_04.wav )
+* [Sie klettert auf einen Stein und nimmt eine Denkerpose ein.](./samples/original_recording/recorded_sample_05.wav )
+* [Jede gute Küchenwaage hat eine Tara-Funktion.](./samples/original_recording/recorded_sample_06.wav )
+* [Jeden Gedanken kannst du hier loswerden.](./samples/original_recording/recorded_sample_07.wav )
 
 # Sonstiges
 Bitte verwende es nicht für Böses!
