@@ -1,5 +1,3 @@
-[Deutsche Version weiter unten](#Einleitung)
-
 # Introduction
 Many smart assistants like Amazon Alexa, Google Home, Apple Siri and Microsoft Cortana need an internet connection to offer the functions STT (speech in text) and TTS (text in speech) in decent quality. But there are also open source projects that develop alternative wizards, some of which work offline. Personally i'm playing currently around with MyCroft AI which has a great community.
 
@@ -78,11 +76,11 @@ Changing recording location and equipment duing the recording session leads to t
 I want to thank the whole community for providing great open source products.
 
 Special thanks go to
-- @domcross
-- @gras64
-- @erogol
-- @krisgesling
-- eltocino from MyCroft community
+- domcross (https://github.com/domcross/)
+- gras64 (https://github.com/gras64/)
+- erogol (https://github.com/erogol/)
+- krisgesling (https://github.com/krisgesling/)
+- eltocino (https://chat.mycroft.ai)
 - nmstroker from Mozilla forum
 
 for their support or this.
