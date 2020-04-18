@@ -80,7 +80,7 @@ Special thanks go to
 - gras64 (https://github.com/gras64/)
 - erogol (https://github.com/erogol/)
 - krisgesling (https://github.com/krisgesling/)
-- eltocino (https://chat.mycroft.ai)
+- eltocino (https://github.com/el-tocino/)
 - nmstoker (https://github.com/nmstoker)
 
 for their support or this.
