@@ -81,7 +81,7 @@ Special thanks go to
 - erogol (https://github.com/erogol/)
 - krisgesling (https://github.com/krisgesling/)
 - eltocino (https://chat.mycroft.ai)
-- nmstroker from Mozilla forum
+- nmstoker (https://github.com/nmstoker)
 
 for their support or this.
 
