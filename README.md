@@ -31,9 +31,7 @@ I contribute my voice as a person believing in a world where all people are equa
 
 So hopefully my voice is used in this manner to make this world a better place for all of us :-).
 
-tl;dr
-
-Please don't use for evil!
+**tl;dr** Please don't use for evil!
 
 # Dataset "thorsten"
 ## Samples of my voice
@@ -71,8 +69,7 @@ To get an impression what my voice sounds to decide if it fits to your project i
 
 > Interested in evolution of this dataset? See following pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf) )
 
-
-
+## Download information
 > * https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing
 > * Download size: 2,7GB
 
