@@ -25,7 +25,15 @@ Mozilla works on these really important aspects for free and open human machine 
 
 # And?!
 I want to make the most personal contribution i can give and contribute my personal voice (**german**) for TTS training to the community for free usage.
-> Please don't use for evil!
+
+## Please read some personal words before downloading the dataset
+I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone.
+
+So hopefully my voice is used in this manner to make this world a better place for all of us :-).
+
+tl;dr
+
+Please don't use for evil!
 
 # Dataset "thorsten"
 ## Samples of my voice
@@ -64,10 +72,6 @@ To get an impression what my voice sounds to decide if it fits to your project i
 > Interested in evolution of this dataset? See following pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf) )
 
 
-## Please read some personal words before downloading the dataset
-I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone.
-
-So hopefully my voice is used in this manner to make this world a better place for all of us :-).
 
 > * https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing
 > * Download size: 2,7GB
