@@ -82,10 +82,11 @@ To get an impression what my voice sounds to decide if it fits to your project i
 Inside the "models" (sub)folders are configs and Dockerfiles for a specific training from scratch.
 > Thanks to @erogol and @repodiac for brining in idea/code for script/container files.
 
-| Folder | date of training | branch | description |
-|--------|------------------|-------------|---|---|
-|thorsten-taco2-v0.0.1|august 2020| dev | pure taco2 training without vocoder|
-|thorsten-taco2-v0.0.1|to do| to do | to do |
+
+Folder | Date | Branch (Mozilla TTS repo) | Description
+------------ | ------------- | ------------- | -------------
+thorsten-taco2-v0.0.1 | august 2020 | dev | pure taco2 training without vocoder
+thorsten-taco2-v0.0.2 | to do | to do | to do
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
