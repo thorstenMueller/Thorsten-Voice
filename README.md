@@ -70,23 +70,22 @@ To get an impression what my voice sounds to decide if it fits to your project i
 > Interested in evolution of this dataset? See following pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf) )
 
 ## Download information
-> * https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing
-> * Download size: 2,7GB
+> Download size: 2,7GB
+
+Version | Description | Link
+------------ | ------------- | ------------- | -------------
+thorsten-de-v01 | Initial version | [Google Drive Download v01](https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing)
+thorsten-de-v02 | normalized to -24dB and split metadata.csv into shuffeled metadata_train.csv and metadata_val.csv | [Google Drive Download v02](https://drive.google.com/file/d/1mGWfG0s2V2TEg-AI2m85tze1m4pyeM7b/view?usp=sharing)
+
 
 # Trained tacotron2 model "thorsten"
-> Training is currently in progress.
+If you trained a model on "thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated. 
 
-> If you trained a model on "thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated. 
+## Trained models (TODO)
 
-## Trained models (with at least acceptable) quality
-Inside the "models" (sub)folders are configs and Dockerfiles for a specific training from scratch.
-> Thanks to @erogol and @repodiac for brining in idea/code for script/container files.
-
-
-Folder | Date | Branch (Mozilla TTS repo) | Description
+Folder | Date | Link | Description
 ------------ | ------------- | ------------- | -------------
-thorsten-taco2-v0.0.1 | august 2020 | dev | pure taco2 training without vocoder
-thorsten-taco2-v0.0.2 | to do | to do | to do
+thorsten-taco2-ddc-v0.1 | to do | to do | to do
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
