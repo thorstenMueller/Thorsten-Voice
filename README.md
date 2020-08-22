@@ -53,6 +53,7 @@ To get an impression what my voice sounds to decide if it fits to your project i
 * more than 23 hours of pure audio
 * samplerate 22.050Hz
 * mono
+* normalized to -24dB
 * phrase length (min/avg/max): 2 / 52 / 180 chars
 * no silence at beginning/ending
 * avg spoken chars per second: 14
