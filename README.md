@@ -70,21 +70,28 @@ To get an impression what my voice sounds to decide if it fits to your project i
 > Interested in evolution of this dataset? See following pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf) )
 
 ## Download information
-> * https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing
-> * Download size: 2,7GB
+> Download size: 2,7GB
+
+Version | Description | Date | Link
+------------ | ------------- | ------------- | -------------
+thorsten-de-v01 | Initial version | 2020-06-28 | [Google Drive Download v01](https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing)
+thorsten-de-v02 | normalized to -24dB and split metadata.csv into shuffeled metadata_train.csv and metadata_val.csv | 2020-08-22 | [Google Drive Download v02](https://drive.google.com/file/d/1mGWfG0s2V2TEg-AI2m85tze1m4pyeM7b/view?usp=sharing)
+
 
 # Trained tacotron2 model "thorsten"
-> Training is currently in progress.
+If you trained a model on "thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated. 
 
-> If you trained a model on "thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated. 
+## Trained models (TODO)
 
+Folder | Date | Link | Description
+------------ | ------------- | ------------- | -------------
+thorsten-taco2-ddc-v0.1 | to do | to do | to do
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
 * use my TTS voice in your project(s)
 * want to share your trained "thorsten" model
 * get to know about any abuse usage of my voice
-
 
 # Special thanks
 I want to thank all open source communities for providing great projects.
@@ -111,6 +118,7 @@ Thank you Dominik (@domcross / https://github.com/domcross/)
 * https://github.com/MycroftAI/mimic-recording-studio
 * https://voice.mozilla.org/
 * https://github.com/mozilla/TTS
+(https://github.com/repodiac/tit-for-tat/tree/master/thorsten-TTS)
 * https://raw.githubusercontent.com/mozilla/voice-web/master/server/data/de/sentence-collector.txt
 
 We'll hear us in future :-)
