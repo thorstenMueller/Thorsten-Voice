@@ -68,7 +68,15 @@ To get an impression what my voice sounds to decide if it fits to your project i
 ![signal noise ratio](./img/thorsten-de---datasetAnalysis5.png)
 ![bokeh](./img/thorsten-de---datasetAnalysis6.png)
 
-> Interested in evolution of this dataset? See following pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf) )
+## Dataset evolution
+As decribed in the pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf)) this dataset consists of three recording phases.
+
+* phase1: Recorded with a cheap usb microphone
+* phase2: Recorded with a good microphone
+* phase3: Recorded with same good microphone but longer phrases (> 100 chars)
+
+If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you can see which files belong to which recording phase in [recording quality](./RecordingQuality.csv) csv file.
+
 
 ## Download information
 > Download size: 2,7GB
