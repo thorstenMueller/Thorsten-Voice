@@ -69,7 +69,7 @@ To get an impression what my voice sounds to decide if it fits to your project i
 ![bokeh](./img/thorsten-de---datasetAnalysis6.png)
 
 ## Dataset evolution
-As decribed in the pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf)) this dataset consists of three recording phases.
+As described in the pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf)) this dataset consists of three recording phases.
 
 * phase1: Recorded with a cheap usb microphone
 * phase2: Recorded with a good microphone
