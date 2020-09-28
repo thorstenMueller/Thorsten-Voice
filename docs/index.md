@@ -48,3 +48,4 @@ Ich teile meine Stimme als Person, die daran glaubt, dass alle Menschen gleichbe
 * https://github.com/thorstenMueller/deep-learning-german-tts/
 * https://medium.com/@thorsten_Mueller/why-ive-chosen-to-donate-my-german-voice-for-mankind-177beeb91675
 * TODO Github Links der Mitstreiter
+* TODO Modell (TTS Server Package) veröffentlichen
