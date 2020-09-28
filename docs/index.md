@@ -4,7 +4,7 @@ Derzeit gewinnt die sprachbasierte Bedienung von Maschinen rasant an Bedeutung. 
 
 Die Systeme der großen Hersteller bringen, neben sehr vielen Vorteilen, auch einige durchaus schwerwiegende Nachteile im Datenschutzbereich mit sich (Cloudzwang, mangelnde Hoheit über die eigenen Daten, Bedenken über "Mithörer", ...). Daher gibt es durchaus Menschen, die zwar die Vorteile solcher Systeme gerne nutzen möchten, aber aufgrund von den genannten Datenschutzbedenken von deren Nutzung absehen.
 
-# Alternativen zu Amazon, Google, Apple, ...
+# Alternativen zu - online Spracherzeugung - von Amazon, Google, Apple, ...
 Glücklicherweise bilden sich auch Alternativen (u.a. OpenSource) heraus um der Marktmarkt der "Big Player" etwas entgegenzutreten. Einige davon sind:
 
 * Mozilla Voice Projekte
@@ -29,15 +29,15 @@ Die Nutzung ist **ohne Lizenzrechtliche Bedenken** möglich und steht somit alle
 
 Gerade den kleinen Communities soll hiermit die Möglichkeit geboten zu werden offline TTS Funktion in ihren Projekten mit auszuliefern.
 
-# Aktueller Stand
-Wir (eine Gruppe von netten TTS Enthusiasten) wissen, dass das aktuelle Modell qualitativ noch viel Luft nach oben hat. Aber wir sind weiterhin motiviert in Zukunft hoffentlich noch bessere Modelle zur Verfügung stellen zu können.
-
 # Beispiele
 * [Es ist im Moment klarer Himmel bei 18 Grad.](https://drive.google.com/file/d/1cDIq4QG6i60WjUYNT6fr2cpEjFQIi8w5/view?usp=sharing)
 * [Ich verstehe das nicht, aber ich lerne jeden Tag neue Dinge.](https://drive.google.com/file/d/1kja_2RsFt6EmC33HTB4ozJyFlvh_DTFQ/view?usp=sharing)
 * [Ich bin jetzt bereit.](https://drive.google.com/file/d/1GkplGH7LMJcPDpgFJocXHCjRln_ccVFs/view?usp=sharing)
 * [Bitte warte einen Moment, bis ich fertig mit dem Booten bin.](https://drive.google.com/file/d/19Td-F14n_05F-squ3bNlt2BDE-NMFaq1/view?usp=sharing)
 * [Mein Name ist MyCroft und ich bin funky.](https://drive.google.com/file/d/1dbyOyE7Oy8YdAsYqQ4vz4VJjiWIyc8oV/view?usp=sharing)
+
+# Aktueller Stand
+Wir (eine Gruppe von netten TTS Enthusiasten) wissen, dass das aktuelle Modell qualitativ noch viel Luft nach oben hat. Aber wir sind weiterhin motiviert in Zukunft hoffentlich noch bessere Modelle zur Verfügung stellen zu können.
 
 # Zu guter Letzt
 Da ich keinen großen Einfluss habe, welche Aussagen mit meiner Stimme zukünftig gemacht werden, möchte ich doch einige Punkte sagen, die mir persönlich wichtig sind:
