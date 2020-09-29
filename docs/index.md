@@ -18,7 +18,7 @@ Die meisten haben sicherlich schon einmal einen persönlichen smarten Assistente
 Falls dem so ist und das Gerät eine gut verständliche deutsche Antwort geliefert hat wurden in diesem Fall "Cloud Resourcen" genutzt.
 
 ---
-> <span style="font-family:Papyrus; font-size:8em;color:green"> Eine qualitativ hochwertige deutsche Stimme, die lokal erzeugt werden kann!</span> 
+<span style="font-family:Papyrus; font-size:4em;color:green"> Eine qualitativ hochwertige deutsche Stimme, die lokal erzeugt werden kann!</span> 
 ---
 
 Natürlich wissen Amazon, Google und Apple um die gute Qualität ihrer künstlichen Stimmen und sind u.a. daher nicht bereit, diese für eine private- und kostenfreie Offlinenutzung zur Verfügung zu stellen.
