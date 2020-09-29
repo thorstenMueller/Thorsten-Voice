@@ -30,7 +30,7 @@ Wir arbeiten weiterhin daran qualitativ noch bessere Modell zu trainieren, aber 
 * [Ich verstehe das nicht, aber ich lerne jeden Tag neue Dinge.](https://drive.google.com/file/d/1kja_2RsFt6EmC33HTB4ozJyFlvh_DTFQ/view?usp=sharing)
 * [Ich bin jetzt bereit.](https://drive.google.com/file/d/1GkplGH7LMJcPDpgFJocXHCjRln_ccVFs/view?usp=sharing)
 * [Bitte warte einen Moment, bis ich fertig mit dem Booten bin.](https://drive.google.com/file/d/19Td-F14n_05F-squ3bNlt2BDE-NMFaq1/view?usp=sharing)
-* [Mein Name ist MyCroft und ich bin funky.](https://drive.google.com/file/d/1dbyOyE7Oy8YdAsYqQ4vz4VJjiWIyc8oV/view?usp=sharing)
+* [Mein Name ist Mycroft und ich bin funky.](https://drive.google.com/file/d/1dbyOyE7Oy8YdAsYqQ4vz4VJjiWIyc8oV/view?usp=sharing)
 
 # Interessiert?
 [Weitere Details, Downloads und Danksagungen findet ihr hier.](https://github.com/thorstenMueller/deep-learning-german-tts "Dataset Details und Thorsten-Modell Download")
