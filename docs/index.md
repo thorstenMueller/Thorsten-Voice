@@ -1,3 +1,11 @@
+# tl;dr
+---
+
+<span style="font-family:Papyrus; font-size:3em;color:green"> Eine kostenfreie qualitativ hochwertige deutsche Stimme, die lokal erzeugt werden kann!</span> 
+
+---
+
+
 # Eine freie Deutsche Stimme
 Auch wenn die Überschrift stark nach einem politischen Statement klingt, geht es hier um ein völlig anderes Thema.
 
@@ -5,7 +13,7 @@ Derzeit gewinnt die sprachbasierte Bedienung von Maschinen rasant an Bedeutung. 
 
 Die Systeme der großen Hersteller bringen, neben sehr vielen Vorteilen, auch einige durchaus schwerwiegende Nachteile im Datenschutzbereich mit sich (Cloudzwang, mangelnde Hoheit über die eigenen Daten, Bedenken über "Mithörer", ...). Daher gibt es durchaus Menschen, die zwar die Vorteile solcher Systeme gerne nutzen möchten, aber aufgrund von den genannten Datenschutzbedenken von deren Nutzung absehen.
 
-# Alternativen zu - online Spracherzeugung - von Amazon, Google, Apple, ...
+# Alternativen zu (_online Spracherzeugung_) von Amazon, Google, Apple, ...
 Glücklicherweise bilden sich auch Alternativen (u.a. OpenSource) heraus um der Marktmarkt der "Big Player" etwas entgegenzutreten. Einige davon sind:
 
 * Mozilla Voice Projekte
@@ -16,10 +24,6 @@ Diese (und andere) Communities arbeiten daran entsprechende Alternativen anzubie
 # Freies deutsches TTS - was ist das?
 Die meisten haben sicherlich schon einmal einen persönlichen smarten Assistenten (oder Smartphone) nach dem Wetter, Terminen, oder ähnlichem gefragt.
 Falls dem so ist und das Gerät eine gut verständliche deutsche Antwort geliefert hat wurden in diesem Fall "Cloud Resourcen" genutzt.
-
----
-<span style="font-family:Papyrus; font-size:4em;color:green"> Eine qualitativ hochwertige deutsche Stimme, die lokal erzeugt werden kann!</span> 
----
 
 Natürlich wissen Amazon, Google und Apple um die gute Qualität ihrer künstlichen Stimmen und sind u.a. daher nicht bereit, diese für eine private- und kostenfreie Offlinenutzung zur Verfügung zu stellen.
 Und genau da liegt eines der großen Probleme in (quelloffenen) Alternativen. Selbst wenn große Anteile kostenfrei und offline zu betreiben sind, spätestens bei der Sprachausgabe sind sie auf die "Big Player" angewiesen, sofern sie einen gewissen Qualitätsanspruch haben.
