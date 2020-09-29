@@ -1,6 +1,6 @@
 # Motivation
 
-<span style="font-size:2em;color:green">
+<span style="font-size:1.5em;font-weight:bold">
 Eine kostenfreie, qualitativ hochwertige, deutsche TTS Stimme, die offline erzeugt werden kann sollte jedem Projekt ohne Lizenzrechtliche Probleme zur Verfügung stehen.
 </span>
 
@@ -35,5 +35,8 @@ Wir arbeiten weiterhin daran qualitativ noch bessere Modell zu trainieren, aber 
 # Interessiert?
 Weitere Details, Downloads und Danksagungen findet ihr unter https://github.com/thorstenMueller/deep-learning-german-tts
 
-<span style="font-size:2em;color:green">
+---
+
+<span style="font-size:1.5em;font-weight:bold">
 Wir wünschen euch viel Spaß und Erfolg bei der Umsetzung eurer Projekte :-)
+</span>
