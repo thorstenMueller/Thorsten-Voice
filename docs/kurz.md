@@ -33,7 +33,8 @@ Wir arbeiten weiterhin daran qualitativ noch bessere Modell zu trainieren, aber 
 * [Mein Name ist MyCroft und ich bin funky.](https://drive.google.com/file/d/1dbyOyE7Oy8YdAsYqQ4vz4VJjiWIyc8oV/view?usp=sharing)
 
 # Interessiert?
-Weitere Details, Downloads und Danksagungen findet ihr unter https://github.com/thorstenMueller/deep-learning-german-tts
+[Weitere Details, Downloads und Danksagungen findet ihr hier.](https://github.com/thorstenMueller/deep-learning-german-tts "Dataset Details und Thorsten-Modell Download")
+
 
 ---
 
