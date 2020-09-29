@@ -36,6 +36,4 @@ Wir arbeiten weiterhin daran qualitativ noch bessere Modell zu trainieren, aber 
 Weitere Details, Downloads und Danksagungen findet ihr unter https://github.com/thorstenMueller/deep-learning-german-tts
 
 <span style="font-size:2em;color:green">
-Wir wünschen euch viel Spaß und Erfolg bei der Umsetzung eurer Projekte
-
-"fellowership of free german tts"
+Wir wünschen euch viel Spaß und Erfolg bei der Umsetzung eurer Projekte :-)
