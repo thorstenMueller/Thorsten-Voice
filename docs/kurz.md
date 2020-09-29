@@ -7,7 +7,7 @@ Eine kostenfreie, qualitativ hochwertige, deutsche TTS Stimme, die offline erzeu
 
 # Egal aus welchem Bereich du kommst:
 * Privates Bastelprojekt
-* Kleines OpenSource Community Projekt
+* OpenSource/Community Projekt
 * Bildung/Forschung/Wissenschaft
 * Kommerzielles Unternehmen
 * ...
