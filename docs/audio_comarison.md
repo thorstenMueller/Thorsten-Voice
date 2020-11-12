@@ -3,7 +3,7 @@
 # Audio vergleich
 <dl>
 
-    <table>
+    <table width="80%">
         <thead>
           <tr>
             <th >Vocoder</th>
@@ -20,10 +20,10 @@
             <td >Ground truth</td>
             <td > --- </td>
             <td ><audio controls="" preload="none"><source src="./sample.wav"></audio></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
-            <td ></td>
+            <td ><audio controls="" preload="none"><source src="./sample.wav"></audio></td>
+            <td ><audio controls="" preload="none"><source src="./sample.wav"></audio></td>
+            <td ><audio controls="" preload="none"><source src="./sample.wav"></audio></td>
+            <td ><audio controls="" preload="none"><source src="./sample.wav"></audio></td>
           </tr>
           <tr>
             <td >Griffin lim</td>
