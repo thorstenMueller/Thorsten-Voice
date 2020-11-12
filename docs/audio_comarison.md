@@ -1,19 +1,73 @@
-# audio samples
-| Vocoder         | RealTimeFactor | Sample1           | Sample2 | Sample3 | Sample4 | Anfang Froschkönig | Link zu Details |
-|-----------------|----------------|-------------------|---------|---------|---------|--------------------|-----------------|
-| Ground truth    |                | ![](sample.wav) |         |         |         | ---                |                 |
-| Griffin lim     |                |                   |         |         |         |                    |                 |
-| ParallelWaveGAN |                |                   |         |         |         |                    |                 |
-| WaveGrad        |                |                   |         |         |         |                    |                 |
-| HifiGAN         |                |                   |         |         |         |                    |                 |
+> english version below
 
-# test2
-![](sample.wav)
-
-# test3
-sample.wav
-
-# test4
+# Audio vergleich
 <dl>
- <audio controls="" preload="none"><source src="sample.wav"></audio>
+
+    <table>
+        <thead>
+          <tr>
+            <th >Vocoder</th>
+            <th >RealTimeFactor</th>
+            <th >Sample #1</th>
+            <th >Sample #2</th>
+            <th >Sample #3</th>
+            <th >Sample #4</th>
+            <th >Anfang Froschkönig</th>
+            <th >Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td >Ground truth</td>
+            <td ><audio controls="" preload="none"><source src="./sample.wav"></audio></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td >---</td>
+            <td ></td>
+          </tr>
+          <tr>
+            <td >Griffin lim</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+          </tr>
+          <tr>
+            <td >ParallelWaveGAN</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+          </tr>
+          <tr>
+            <td >WaveGrad</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+          </tr>
+          <tr>
+            <td >HifiGAN</td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+          </tr>
+        </tbody>
+        </table>
+ 
 </dl>
