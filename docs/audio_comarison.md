@@ -27,9 +27,11 @@ Originalaufnahmen aus dem "thorsten" Dataset.
     <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
     <td><audio controls="" preload="none"><source src="sample01-gt.wav"></audio></td>
   </tr>
+  <tr>
     <td>02</td>
     <td>Eure Tröte nervt</td>
-    <td><audio controls="" preload="none"><source src="sample02-gt.wav"></audio></td></tr>
+    <td><audio controls="" preload="none"><source src="sample02-gt.wav"></audio></td>
+  </tr>
   <tr>
     <td>03</td>
     <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
