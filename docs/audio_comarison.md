@@ -1,5 +1,5 @@
 # Vocoder Vergleich auf Basis des "thorsten" Tacotron 2 Modells
-Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (**Sample 1 - 4**) basieren auf Aufnahmen im Dataset, jedoch nicht auf dem Spektogramm von "ground truth", sondern auf Basis des trainierten Tacotron 2 Modells. Sample 5 ist der Beginn des Märchens "Der Froschkönig" und wurde nicht für das Dataset aufgezeichnet.
+Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (*Sample 1 - 4*) basieren auf Aufnahmen im Dataset, jedoch nicht auf dem Spektogramm von "ground truth", sondern auf Basis des trainierten Tacotron 2 Modells. Sample 5 ist der Beginn des Märchens "Der Froschkönig" und wurde nicht für das Dataset aufgezeichnet.
 
 ## Sätze
 * **Sample #01**: Eure Schoko-Bonbons sind sagenhaft lecker!
@@ -12,7 +12,8 @@ Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (**
 Originalaufnahmen aus dem "thorsten" Dataset.
 
 <dl>
-
+<html>
+<body>
 <table>
 <thead>
   <tr>
@@ -40,14 +41,10 @@ Originalaufnahmen aus dem "thorsten" Dataset.
     <td>Euer Plan hat ja toll geklappt.</td>
     <td><audio controls="" preload="none"><source src="sample04-gt.wav"></td>
   </tr>
-  <tr>
-    <td>05</td>
-    <td>Anfang vom Froschkönig</td>
-    <td> --- </td>
-  </tr>
 </tbody>
 </table>
-
+</body>
+</html>
 </dl>
 
 
@@ -60,7 +57,8 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 > PWGAN Vocoder: 925k Schritte trainiert
 
 <dl>
-
+<html>
+<body>
 <table>
 <thead>
   <tr>
@@ -97,7 +95,8 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   </tr>
 </tbody>
 </table>
-
+</body>
+</html>
 </dl>
 
 
