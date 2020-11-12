@@ -12,8 +12,7 @@ Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (*S
 Originalaufnahmen aus dem "thorsten" Dataset.
 
 <dl>
-<html>
-<body>
+
 <table>
 <thead>
   <tr>
@@ -43,22 +42,10 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   </tr>
 </tbody>
 </table>
-</body>
-</html>
-</dl>
+
+bla
 
 
-# Griffin Lim
-> Details zum Model: (todo: link)
-> Tacotron2 + DDC: 460k Schritte trainiert
-
-# ParallelWaveGAN
-> Tacotron2 + DDC: 360k Schritte trainiert
-> PWGAN Vocoder: 925k Schritte trainiert
-
-<dl>
-<html>
-<body>
 <table>
 <thead>
   <tr>
@@ -95,8 +82,23 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   </tr>
 </tbody>
 </table>
-</body>
-</html>
+
+
+</dl>
+
+
+# Griffin Lim
+> Details zum Model: (todo: link)
+> Tacotron2 + DDC: 460k Schritte trainiert
+
+# ParallelWaveGAN
+> Tacotron2 + DDC: 360k Schritte trainiert
+> PWGAN Vocoder: 925k Schritte trainiert
+
+<dl>
+
+<h1>test 2</h1>
+
 </dl>
 
 
