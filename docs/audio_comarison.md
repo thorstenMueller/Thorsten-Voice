@@ -1,5 +1,5 @@
 # Vocoder Vergleich auf Basis des "thorsten" Tacotron 2 Modells
-Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (Sample 1 - 4) basieren auf Aufnahmen im Dataset, jedoch nicht auf dem Spektogramm von "ground truth", sondern auf Basis des trainierten Tacotron 2 Modells. Sample 5 ist der Beginn des Märchens "Der Froschkönig" und wurde nicht für das Dataset aufgezeichnet.
+Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (**Sample 1 - 4**) basieren auf Aufnahmen im Dataset, jedoch nicht auf dem Spektogramm von "ground truth", sondern auf Basis des trainierten Tacotron 2 Modells. Sample 5 ist der Beginn des Märchens "Der Froschkönig" und wurde nicht für das Dataset aufgezeichnet.
 
 ## Sätze
 * **Sample #01**: Eure Schoko-Bonbons sind sagenhaft lecker!
@@ -25,13 +25,11 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>01</td>
     <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
-    <td><audio controls="" preload="none"><source src="sample01-gt.wav"></td>
-  </tr>
+    <td><audio controls="" preload="none"><source src="sample01-gt.wav"></td></tr>
   <tr>
     <td>02</td>
     <td>Eure Tröte nervt</td>
-    <td><audio controls="" preload="none"><source src="sample02-gt.wav"></td>
-  </tr>
+    <td><audio controls="" preload="none"><source src="sample02-gt.wav"></td></tr>
   <tr>
     <td>03</td>
     <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
@@ -45,7 +43,7 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>05</td>
     <td>Anfang vom Froschkönig</td>
-    <td><audio controls="" preload="none"><source src="sample05-gt.wav"></td>
+    <td> --- </td>
   </tr>
 </tbody>
 </table>
