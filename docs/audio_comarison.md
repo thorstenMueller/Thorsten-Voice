@@ -103,3 +103,43 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 
 # HifiGAN
 > todo
+
+# VocGAN
+> **Diese Beispiele basieren auf "ground truth" und nicht auf dem Tacotron 2 Modell**
+> 200 Epochen / 284k Trainingsschritte
+
+<dl>
+
+<table>
+<thead>
+  <tr>
+    <th>Sample</th>
+    <th>Text</th>
+    <th>Audio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>01</td>
+    <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
+    <td><audio controls="" preload="none"><source src="sample01-vocgan.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Eure Tröte nervt</td>
+    <td><audio controls="" preload="none"><source src="sample02-vocgan.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
+    <td><audio controls="" preload="none"><source src="sample03-vocgan.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Euer Plan hat ja toll geklappt.</td>
+    <td><audio controls="" preload="none"><source src="sample04-vocgan.wav"></audio></td>
+  </tr>
+</tbody>
+</table>
+
+</dl>
