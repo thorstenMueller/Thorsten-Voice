@@ -25,22 +25,22 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>01</td>
     <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
-    <td><audio controls="" preload="none"><source src="sample01-gt.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-gt.wav"></audio></td>
   </tr>
   <tr>
     <td>02</td>
     <td>Eure Tröte nervt</td>
-    <td><audio controls="" preload="none"><source src="sample02-gt.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-gt.wav"></audio></td>
   </tr>
   <tr>
     <td>03</td>
     <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
-    <td><audio controls="" preload="none"><source src="sample03-gt.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-gt.wav"></audio></td>
   </tr>
   <tr>
     <td>04</td>
     <td>Euer Plan hat ja toll geklappt.</td>
-    <td><audio controls="" preload="none"><source src="sample04-gt.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-gt.wav"></audio></td>
   </tr>
 </tbody>
 </table>
@@ -70,27 +70,27 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>01</td>
     <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
-    <td><audio controls="" preload="none"><source src="sample01-pwgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-pwgan.wav"></audio></td>
   </tr>
   <tr>
     <td>02</td>
     <td>Eure Tröte nervt</td>
-    <td><audio controls="" preload="none"><source src="sample02-pwgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-pwgan.wav"></audio></td>
   </tr>
   <tr>
     <td>03</td>
     <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
-    <td><audio controls="" preload="none"><source src="sample03-pwgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-pwgan.wav"></audio></td>
   </tr>
   <tr>
     <td>04</td>
     <td>Euer Plan hat ja toll geklappt.</td>
-    <td><audio controls="" preload="none"><source src="sample04-pwgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-pwgan.wav"></audio></td>
   </tr>
   <tr>
     <td>05</td>
     <td>Anfang vom Froschkönig</td>
-    <td><audio controls="" preload="none"><source src="sample05-pwgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample05-pwgan.wav"></audio></td>
   </tr>
 </tbody>
 </table>
@@ -122,22 +122,61 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>01</td>
     <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
-    <td><audio controls="" preload="none"><source src="sample01-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-vocgan.wav"></audio></td>
   </tr>
   <tr>
     <td>02</td>
     <td>Eure Tröte nervt</td>
-    <td><audio controls="" preload="none"><source src="sample02-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-vocgan.wav"></audio></td>
   </tr>
   <tr>
     <td>03</td>
     <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
-    <td><audio controls="" preload="none"><source src="sample03-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-vocgan.wav"></audio></td>
   </tr>
   <tr>
     <td>04</td>
     <td>Euer Plan hat ja toll geklappt.</td>
-    <td><audio controls="" preload="none"><source src="sample04-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-vocgan.wav"></audio></td>
+  </tr>
+</tbody>
+</table>
+
+</dl>
+
+# GlowTTS
+> Details: https://github.com/rhasspy/de_larynx-thorsten
+
+<dl>
+
+<table>
+<thead>
+  <tr>
+    <th>Sample</th>
+    <th>Text</th>
+    <th>Audio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>01</td>
+    <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-vocgan.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Eure Tröte nervt</td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-vocgan.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-vocgan.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Euer Plan hat ja toll geklappt.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-vocgan.wav"></audio></td>
   </tr>
 </tbody>
 </table>
