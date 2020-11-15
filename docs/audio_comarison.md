@@ -145,7 +145,7 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 </dl>
 
 # GlowTTS
-> Details: https://github.com/rhasspy/de_larynx-thorsten
+> Details: [Github von Synesthesiam](https://github.com/rhasspy/de_larynx-thorsten)
 
 <dl>
 
@@ -176,7 +176,7 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>04</td>
     <td>Euer Plan hat ja toll geklappt.</td>
-    <td><audio controls="" preload="none"><source src="samples/sample04-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="./samples/sample04-vocgan.wav"></audio></td>
   </tr>
 </tbody>
 </table>
