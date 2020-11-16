@@ -144,7 +144,7 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 
 </dl>
 
-# GlowTTS
+# GlowTTS / Waveglow
 > Details: [Github von Synesthesiam](https://github.com/rhasspy/de_larynx-thorsten)
 
 <dl>
@@ -161,22 +161,22 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   <tr>
     <td>01</td>
     <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
-    <td><audio controls="" preload="none"><source src="samples/sample01-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-waveglow.wav"></audio></td>
   </tr>
   <tr>
     <td>02</td>
     <td>Eure Tröte nervt</td>
-    <td><audio controls="" preload="none"><source src="samples/sample02-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-waveglow.wav"></audio></td>
   </tr>
   <tr>
     <td>03</td>
     <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
-    <td><audio controls="" preload="none"><source src="samples/sample03-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-waveglow.wav"></audio></td>
   </tr>
   <tr>
     <td>04</td>
     <td>Euer Plan hat ja toll geklappt.</td>
-    <td><audio controls="" preload="none"><source src="./samples/sample04-vocgan.wav"></audio></td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-waveglow.wav"></audio></td>
   </tr>
 </tbody>
 </table>
