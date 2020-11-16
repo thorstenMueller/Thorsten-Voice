@@ -53,9 +53,9 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 > Tacotron2 + DDC: 460k Schritte trainiert
 
 # ParallelWaveGAN
-> Tacotron2 + DDC: 360k Schritte trainiert
-> PWGAN Vocoder: 925k Schritte trainiert
+> Tacotron2 + DDC: 360k Schritte trainiert, PWGAN Vocoder: 925k Schritte trainiert
 
+> Details: [Notebook von Olaf](https://colab.research.google.com/drive/15kJHTDTVxyIjxiZgqD1G_s5gUeVNLkfy?usp=sharing)
 <dl>
 
 <table>
