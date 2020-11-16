@@ -34,7 +34,7 @@ Wir arbeiten weiterhin daran qualitativ noch bessere Modell zu trainieren, aber 
 
 ## Vergleich einiger Vocoder
 Wir experimentieren aktuell mit unterschiedlichen Konfigurationen um das beste Modell zu ermitteln. Ein Vergleich der bisherigen Ergebnisse findest Du auf dieser Seite. 
-> [Vergleich der Vocoder](./audio_comparison)
+> [Vergleich der unterschiedlichen Modell](./audio_compare)
 
 # Interessiert?
 [Weitere Details, Downloads und Danksagungen findet ihr hier.](https://github.com/thorstenMueller/deep-learning-german-tts "Dataset Details und Thorsten-Modell Download")
