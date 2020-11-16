@@ -32,6 +32,10 @@ Wir arbeiten weiterhin daran qualitativ noch bessere Modell zu trainieren, aber 
 * [Bitte warte einen Moment, bis ich fertig mit dem Booten bin.](https://drive.google.com/file/d/19Td-F14n_05F-squ3bNlt2BDE-NMFaq1/view?usp=sharing)
 * [Mein Name ist Mycroft und ich bin funky.](https://drive.google.com/file/d/1dbyOyE7Oy8YdAsYqQ4vz4VJjiWIyc8oV/view?usp=sharing)
 
+## Vergleich einiger Vocoder
+Wir experimentieren aktuell mit unterschiedlichen Konfigurationen um das beste Modell zu ermitteln. Ein Vergleich der bisherigen Ergebnisse findest Du auf dieser Seite. 
+> [Vergleich der Vocoder](./audio_comparison)
+
 # Interessiert?
 [Weitere Details, Downloads und Danksagungen findet ihr hier.](https://github.com/thorstenMueller/deep-learning-german-tts "Dataset Details und Thorsten-Modell Download")
 
