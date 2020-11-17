@@ -146,6 +146,7 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 
 # GlowTTS / Waveglow
 > Details: [Github von Synesthesiam](https://github.com/rhasspy/de_larynx-thorsten)
+> GlowTTS trainiert für 380k und Vocoder für 500k Schritte.
 
 <dl>
 
