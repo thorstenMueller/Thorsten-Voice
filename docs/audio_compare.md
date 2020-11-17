@@ -6,7 +6,7 @@ Hier sind Hörproben mit unterschiedlichen Vocodern. Alle gesprochenen Texte (*S
 * **Sample #02**: Eure Tröte nervt.
 * **Sample #03**: Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet.
 * **Sample #04**: Euer Plan hat ja toll geklappt.
-* *Sample #05: "In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön ..." (Anfang vom "Froschkönig")*
+* *Sample #05: "In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön." (Anfang vom "Froschkönig")*
 
 # Ground truth
 Originalaufnahmen aus dem "thorsten" Dataset.
@@ -89,7 +89,7 @@ Originalaufnahmen aus dem "thorsten" Dataset.
   </tr>
   <tr>
     <td>05</td>
-    <td>Anfang vom Froschkönig</td>
+    <td>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön.</td>
     <td><audio controls="" preload="none"><source src="samples/sample05-pwgan.wav"></audio></td>
   </tr>
 </tbody>
@@ -177,6 +177,11 @@ Originalaufnahmen aus dem "thorsten" Dataset.
     <td>04</td>
     <td>Euer Plan hat ja toll geklappt.</td>
     <td><audio controls="" preload="none"><source src="samples/sample04-waveglow.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample05-waveglow.wav"></audio></td>
   </tr>
 </tbody>
 </table>
