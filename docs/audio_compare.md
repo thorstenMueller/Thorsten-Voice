@@ -83,6 +83,11 @@ Originalaufnahmen aus dem "thorsten" Dataset.
     <td>Euer Plan hat ja toll geklappt.</td>
     <td><audio controls="" preload="none"><source src="samples/sample04-griffin-lim.wav"></audio></td>
   </tr>
+  <tr>
+    <td>05</td>
+    <td>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample05-griffin-lim.wav"></audio></td>
+  </tr>
 </tbody>
 </table>
 
