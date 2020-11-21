@@ -52,6 +52,42 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 > Details zum Model: (todo: link)
 > Tacotron2 + DDC: 460k Schritte trainiert
 
+<dl>
+
+<table>
+<thead>
+  <tr>
+    <th>Sample</th>
+    <th>Text</th>
+    <th>Audio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>01</td>
+    <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-griffin-lim.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Eure Tröte nervt</td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-griffin-lim.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-griffin-lim.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Euer Plan hat ja toll geklappt.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-griffin-lim.wav"></audio></td>
+  </tr>
+</tbody>
+</table>
+
+</dl>
+
 # ParallelWaveGAN
 > Tacotron2 + DDC: 360k Schritte trainiert, PWGAN Vocoder: 925k Schritte trainiert
 
