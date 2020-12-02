@@ -231,7 +231,8 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 
 
 
-# TensorFlowTTS / Multiband MelGAN
+# TensorFlowTTS
+## Multiband MelGAN
 > Thanks [Monatis](https://github.com/monatis)  
 > Details: [Notebook von Monatis](https://colab.research.google.com/drive/1W0nSFpsz32M0OcIkY9uMOiGrLTPKVhTy?usp=sharing#scrollTo=SCbWCChVkfnn)  
 > Taco2 Modell für 80k Schritte trainiert, Multiband MelGAN für 800k Schritte.
