@@ -114,6 +114,7 @@ Just to name some nice guys who joined me on this tts-roadtrip:
 * nmstoker (https://github.com/nmstoker)
 * othiele (https://discourse.mozilla.org/u/othiele/summary)
 * repodiac (https://github.com/repodiac)
+* SanjaESC (https://github.com/SanjaESC)
 
 Additionally, a really nice thanks for my dear colleague, Sebastian Kraus, for supporting me with audio recording equipment and for being the creative mastermind behind the logo design.
 
