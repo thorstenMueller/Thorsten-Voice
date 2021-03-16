@@ -1,4 +1,4 @@
-# Introduction :speaking_head: :speech_balloon:
+# Introduction to "Thorsten-Voice" :speaking_head: :speech_balloon:
 ## **A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**
 
 Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
