@@ -1,4 +1,4 @@
-# Introduction :speaking_head: :green_heart: :speech_balloon:
+# Introduction :speaking_head: :speech_balloon:
 ## **A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**
 
 Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
@@ -9,12 +9,12 @@ Speaking tech devices and voice based smart assistants are very popular ourdays.
 
 This contribution is split into two parts:
 * "Thorsten" dataset
-* Pretrained TTS (vocoder) models based on "Thorsten" dataset
+* Pretrained TTS models based on "Thorsten" dataset
 
 # Please read some personal words before using dataset / TTS models
 > I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone. :earth_africa:
 
-**So hopefully my voice is used in this manner to make this world a better place for all of us :-).**
+**So hopefully my voice is used in this manner to make this world a better place for all of us :smiley:.**
 
 **tl;dr** Please don't use for evil!
 
@@ -76,10 +76,10 @@ thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using f
 ## Pretrained TTS models
 If you trained a model on "Thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated.
 
-My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through coqui.ai (:frog:)
+My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through https://www.coqui.ai (:frog:)
 
-### Trained models (TODO)
-> training in progress
+### Trained models
+> training in progress. Available models will be listed here in future.
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
