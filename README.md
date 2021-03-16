@@ -1,40 +1,26 @@
-# Introduction
-Many smart voice assistants like Amazon Alexa, Google Home, Apple Siri and Microsoft Cortana use cloud services to offer their (base) functionality.
+# Introduction :speaking_head: :green_heart: :speech_balloon:
+## **A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**
 
-As some people have privacy concerns using these services there are some (open source) projects trying to build offline and/or privacy aware alternatives.
+Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
 
-But speech recognition and text synthesis still requires cloud services for providing these in a decent quality.
+## True, but what is this all about
+> I want to (*hopefully*) fill that german TTS gap and make the most personal contribution i can give.<br>
+**I contribute my personal voice!** :green_heart:
 
-# MyCroft AI
-> https://mycroft.ai/
+This contribution is split into two parts:
+* "Thorsten" dataset
+* Pretrained TTS (vocoder) models based on "Thorsten" dataset
 
-MyCroft is a company developing an opensource voice assistant with a very nice and active community. But the stt/tts parts are still cloud based (eg. google services), even if requests are anonymized by a mycroft proxy in between. But integration with locally hosted services such as deepspeech (stt) or mimic/tacotron (tts) is possible.
+# Please read some personal words before using dataset / TTS models
+> I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone. :earth_africa:
 
-# Mozilla
-Mozilla works on these really important aspects for free and open human machine voice interaction.
-
-## STT - speech to text
-> https://commonvoice.mozilla.org/
-
-"STT" needs lots of audio training data by many speakers (women/men/kids) of all ages, dialects and in various audio quality levels. So any voice contribution for common voice project is highly welcome.
-
-## TTS - text to speech
-> https://github.com/mozilla/tts
-
-"TTS" needs lots of clean recordings by one speaker to train a model. Mozilla is developing a software stack for proper model training based on tacotron2 papers.
-
-# And?!
-I want to make the most personal contribution i can give and contribute my personal voice (**german**) for TTS training to the community for free usage.
-
-## Please read some personal words before downloading the dataset
-I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone.
-
-So hopefully my voice is used in this manner to make this world a better place for all of us :-).
+**So hopefully my voice is used in this manner to make this world a better place for all of us :-).**
 
 **tl;dr** Please don't use for evil!
 
-# Dataset "thorsten"
-## Samples of my voice
+## Dataset "Thorsten"
+> Please keep in mind that **i am no professional voice artists**. I'm just a normal guy sharing his voice with you.
+### Samples of my voice
 To get an impression what my voice sounds to decide if it fits to your project i published some sample recordings, so no need to download complete dataset first.
 
 * [Das Teilen eines Benutzerkontos ist strengstens untersagt.](./samples/original_recording/recorded_sample_01.wav )
@@ -46,7 +32,7 @@ To get an impression what my voice sounds to decide if it fits to your project i
 * [Jeden Gedanken kannst du hier loswerden.](./samples/original_recording/recorded_sample_07.wav )
 
 
-## Dataset information
+### Dataset information :microphone:
 
 * ljspeech-1.1 structure
 * 22.668 recorded phrases (wav files)
@@ -60,7 +46,6 @@ To get an impression what my voice sounds to decide if it fits to your project i
 * sentences with question mark: 2.780
 * sentences with exclamation mark: 1.840
 
-
 ![text length vs. mean audio duration](./img/thorsten-de---datasetAnalysis1.png)
 ![text length vs. median audio duration](./img/thorsten-de---datasetAnalysis2.png)
 ![text length vs. STD](./img/thorsten-de---datasetAnalysis3.png)
@@ -68,17 +53,17 @@ To get an impression what my voice sounds to decide if it fits to your project i
 ![signal noise ratio](./img/thorsten-de---datasetAnalysis5.png)
 ![bokeh](./img/thorsten-de---datasetAnalysis6.png)
 
-## Dataset evolution
+### Dataset evolution
 As described in the pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf)) this dataset consists of three recording phases.
 
-* phase1: Recorded with a cheap usb microphone
-* phase2: Recorded with a good microphone
-* phase3: Recorded with same good microphone but longer phrases (> 100 chars)
+* **phase1**: Recorded with a cheap usb microphone
+* **phase2**: Recorded with a good microphone
+* **phase3**: Recorded with same good microphone but longer phrases (> 100 chars)
 
 If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you can see which files belong to which recording phase in [recording quality](./RecordingQuality.csv) csv file.
 
 
-## Download information
+### Download information
 > Download size: 2,7GB
 
 Version | Description | Date | Link
@@ -88,25 +73,32 @@ thorsten-de-v02 | Normalized to -24dB and split metadata.csv into shuffeled meta
 thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using ffmpeg atempo=1.1). | 2021-02-10 | [Google Drive Download v03](https://drive.google.com/file/d/134_UramfCRoAxRrOnhbPJ2YHHTwxRtr-/view?usp=sharing)
 
 
-# Trained tacotron2 model "thorsten"
-If you trained a model on "thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated. 
+## Pretrained TTS models
+If you trained a model on "Thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated.
 
-## Trained models (TODO)
+My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through coqui.ai (:frog:)
 
-Folder | Date | Link | Description
------------- | ------------- | ------------- | -------------
-thorsten-taco2-ddc-v0.1 | to do | to do | to do
+### Trained models (TODO)
+> training in progress
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
 * use my TTS voice in your project(s)
-* want to share your trained "thorsten" model
+* want to share your trained "Thorsten" model
 * get to know about any abuse usage of my voice
+
+# Recommended projects / communities
+* https://mycroft.ai/ (*for building an opensource privacy friendly voice assistant*)
+* https://www.mozilla.org (*for initiating voice projects for STT and TTS*)
+* https://coqui.ai/ (*for keeping voice projects running*)
+* https://github.com/coqui-ai/TTS
+* https://github.com/TensorSpeech/TensorFlowTTS
+* https://github.com/rhasspy/de_larynx-thorsten
 
 # Special thanks
 I want to thank all open source communities for providing great projects.
 
-Just to name some nice guys who joined me on this tts-roadtrip:
+Just to name some nice guys who joined me on this TTS roadtrip:
 
 * eltocino (https://github.com/el-tocino/)
 * erogol (https://github.com/erogol/)
@@ -125,15 +117,12 @@ Without his amazing support this dataset (in it's current way) would not exists.
 
 Thank you Dominik (@domcross / https://github.com/domcross/)
 
-# Links
+# Additional links
+* https://medium.com/@thorsten_Mueller/why-ive-chosen-to-donate-my-german-voice-for-mankind-177beeb91675
 * https://discourse.mozilla.org/t/contributing-my-german-voice-for-tts/48150
 * https://community.mycroft.ai/
 * https://github.com/MycroftAI/mimic-recording-studio
-* https://voice.mozilla.org/
-* https://github.com/mozilla/TTS
-(https://github.com/repodiac/tit-for-tat/tree/master/thorsten-TTS)
-* https://raw.githubusercontent.com/mozilla/voice-web/master/server/data/de/sentence-collector.txt
 
-We'll hear us in future :-)
+We'll hear us in future :speaking_head:
 
 Thorsten
