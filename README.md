@@ -1,4 +1,4 @@
-![Thorsten - Open German Voice Dataset](./img/ThorstenVoice_Logo.png "Thorsten - Open German Voice Dataset")
+![Thorsten - Open German Voice Dataset](./img/ThorstenVoice_Logo_Small.png "Thorsten - Open German Voice Dataset")
 # Introduction to "Thorsten-Voice" :speaking_head: :speech_balloon:
 ## **A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**
 
