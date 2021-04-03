@@ -1,4 +1,23 @@
 ![Thorsten - Open German Voice Dataset](./img/ThorstenVoice_Logo_Small.png "Thorsten - Open German Voice Dataset")
+
+- [Introduction to "Thorsten-Voice" :speaking_head: :speech_balloon: :sloth:](#introduction-to-thorsten-voice-speaking_head-speech_balloon-sloth)
+  - [**A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**](#a-free-to-use-offline-working-high-quality-german-tts-voice-should-be-available-for-every-project-without-any-license-struggling)
+  - [True, but what is this all about](#true-but-what-is-this-all-about)
+- [Please read some personal words before using dataset / TTS models](#please-read-some-personal-words-before-using-dataset--tts-models)
+  - [Dataset "Thorsten"](#dataset-thorsten)
+    - [Samples of my voice](#samples-of-my-voice)
+    - [Dataset information :microphone:](#dataset-information-microphone)
+    - [Dataset evolution](#dataset-evolution)
+    - [Download information](#download-information)
+  - [Pretrained TTS models](#pretrained-tts-models)
+    - [Trained models](#trained-models)
+    - [Pre-trained Silero-models](#pre-trained-silero-models)
+- [Feel free to file an issue if you ...](#feel-free-to-file-an-issue-if-you-)
+- [Recommended projects / communities](#recommended-projects--communities)
+- [Special thanks](#special-thanks)
+- [Additional links](#additional-links)
+
+
 # Introduction to "Thorsten-Voice" :speaking_head: :speech_balloon: :sloth:
 ## **A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**
 
@@ -67,11 +86,11 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 ### Download information
 > Download size: 2,7GB
 
-Version | Description | Date | Link
------------- | ------------- | ------------- | -------------
-thorsten-de-v01 | Initial version | 2020-06-28 | [Google Drive Download v01](https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing)
-thorsten-de-v02 | Normalized to -24dB and split metadata.csv into shuffeled metadata_train.csv and metadata_val.csv | 2020-08-22 | [Google Drive Download v02](https://drive.google.com/file/d/1mGWfG0s2V2TEg-AI2m85tze1m4pyeM7b/view?usp=sharing)
-thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using ffmpeg atempo=1.1). | 2021-02-10 | [Google Drive Download v03](https://drive.google.com/file/d/134_UramfCRoAxRrOnhbPJ2YHHTwxRtr-/view?usp=sharing)
+| Version         | Description                                                                                       | Date       | Link                                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
+| thorsten-de-v01 | Initial version                                                                                   | 2020-06-28 | [Google Drive Download v01](https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing) |
+| thorsten-de-v02 | Normalized to -24dB and split metadata.csv into shuffeled metadata_train.csv and metadata_val.csv | 2020-08-22 | [Google Drive Download v02](https://drive.google.com/file/d/1mGWfG0s2V2TEg-AI2m85tze1m4pyeM7b/view?usp=sharing) |
+| thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using ffmpeg atempo=1.1).                  | 2021-02-10 | [Google Drive Download v03](https://drive.google.com/file/d/134_UramfCRoAxRrOnhbPJ2YHHTwxRtr-/view?usp=sharing) |
 
 
 ## Pretrained TTS models
@@ -81,6 +100,16 @@ My personal training sessions are based on TTS repo code (originally initiated b
 
 ### Trained models
 > training in progress. Available models will be listed here in future.
+
+### Pre-trained Silero-models
+
+You can use a free A-GPL licensed models trained on this dataset via the [silero-models](https://github.com/snakers4/silero-models) project. The full list of models including their older version is available via this [yaml file](https://github.com/snakers4/silero-models/blob/master/models.yml).
+
+| Speaker        | Gender | Language | Examples                                                                                                                                                                                     | Colab                                                                                                                                                                        |
+| -------------- | ------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| thorsten_8khz  | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
+| thorsten_16khz | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
+
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
