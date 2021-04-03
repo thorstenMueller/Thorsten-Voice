@@ -5,19 +5,21 @@
 - [A personal note](#please-read-some-personal-words-before-using-dataset--tts-models)
 
 - [Voice "Thorsten" (neutral)](#dataset-thorsten-neutral)
-  - [Samples of my original voice](#samples-of-my-voice)
+  - [Samples of my neutral voice](#samples-of-my-neutral-voice)
   - [Dataset information :microphone:](#dataset-information-microphone)
   - [Dataset evolution / changelog](#dataset-evolution)
-  - [Download information](#download-information)
+  - [Download information](#neutral-dataset-download-information)
 
-- [Voice "Thorsten" (emotional)](#Dataset "Thorsten" (**emotional**))
-
+- [Voice "Thorsten" (emotional)](#dataset-Thorsten-emotional)
+  - [Samples of my emotional voice](#samples-of-my-emotional-voice)
+  - [Emotional dataset information :microphone:](#emotional-dataset-information-microphone)
+  - [Emotional dataset download information](#emotional-dataset-download-information)
 
   - [Pretrained TTS models](#pretrained-tts-models)
-    - [Trained models](#trained-models)
-    - [Pre-trained Silero-models](#pre-trained-silero-models)
+    - [Coqui models](#coqui-models)
+    - [Pre-trained Silero-models](#silero-models)
 - [Feel free to file an issue if you ...](#feel-free-to-file-an-issue-if-you-)
-- [Recommended projects / communities](#recommended-projects--communities)
+- [Recommended projects / communities](#recommended-projects)
 - [Special thanks](#special-thanks)
 - [Additional links](#additional-links)
 
@@ -91,7 +93,7 @@ As described in the pdf document ([evolution of thorsten dataset](./EvolutionOfT
 If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you can see which files belong to which recording phase in [recording quality](./RecordingQuality.csv) csv file.
 
 
-### Download information (**neutral dataset**)
+### Neutral dataset download information
 > Download size: 2,7GB
 
 | Version         | Description                                                                                       | Date       | Link                                                                                                            |
@@ -101,7 +103,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 | thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using ffmpeg atempo=1.1).                  | 2021-02-10 | [Google Drive Download v03](https://drive.google.com/file/d/134_UramfCRoAxRrOnhbPJ2YHHTwxRtr-/view?usp=sharing) |
 
 
-## Dataset "Thorsten" (**emotional**)
+## Dataset "Thorsten" emotional
 ### Samples of my emotional voice
 *Btw. i mentioned, that i'm no professional voice talent, did i?*
 > "Mist, wieder nichts geschafft."
@@ -129,7 +131,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 | Surprised :astonished: | 18 min. |
 | Sleepy :pensive:    | 30 min. |
 
-### Download **emotional** dataset
+### Emotional dataset download information
 > Download size: 300MB
 
 | Version         | Description                                                                                       | Date       | Link                                                                                                            |
@@ -142,7 +144,8 @@ If you trained a model on "Thorsten" dataset please file an issue with some info
 
 My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through https://www.coqui.ai (:frog:)
 ## Coqui models
-todo
+### Tacotron2 + DCA (DynamicConvolution Attention) & WaveGrad vocoder
+> https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
 ## Silero-models
 
 You can use a free A-GPL licensed models trained on this dataset via the [silero-models](https://github.com/snakers4/silero-models) project. The full list of models including their older version is available via this [yaml file](https://github.com/snakers4/silero-models/blob/master/models.yml).
@@ -160,7 +163,7 @@ You can use a free A-GPL licensed models trained on this dataset via the [silero
 * want to share your trained "Thorsten" model
 * get to know about any abuse usage of my voice
 
-# Recommended projects / communities
+# Recommended projects
 * https://mycroft.ai/ (*for building an opensource privacy friendly voice assistant*)
 * https://www.mozilla.org (*for initiating voice projects for STT and TTS*)
 * https://coqui.ai/ (*for keeping voice projects running*)
