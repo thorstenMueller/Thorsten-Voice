@@ -15,9 +15,10 @@
   - [Emotional dataset information :microphone:](#emotional-dataset-information-microphone)
   - [Emotional dataset download information](#emotional-dataset-download-information)
 
-  - [Pretrained TTS models](#pretrained-tts-models)
-    - [Coqui models](#coqui-models)
-    - [Pre-trained Silero-models](#silero-models)
+- [Pretrained TTS models](#pretrained-tts-models)
+  - [Coqui models](#coqui-models)
+  - [Pre-trained Silero-models](#silero-models)
+
 - [Feel free to file an issue if you ...](#feel-free-to-file-an-issue-if-you-)
 - [Recommended projects / communities](#recommended-projects)
 - [Special thanks](#special-thanks)
