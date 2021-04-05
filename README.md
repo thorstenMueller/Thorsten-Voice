@@ -145,8 +145,27 @@ If you trained a model on "Thorsten" dataset please file an issue with some info
 
 My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through https://www.coqui.ai (:frog:)
 ## Coqui models
+For all "Thorsten" coqui models i recommend setting up a virtual environment (*venv*).
+* mkdir ThorstenVoice
+* cd ThorstenVoice
+* python3 -m venv .
+* source ./bin/activate
+* pip install -U pip
+* pip install -U tts
+* *start coqui server model with one of the following model combinations*
+* Open web-browser on http://localhost:5002
 ### Tacotron2 + DCA (DynamicConvolution Attention) & WaveGrad vocoder
-> https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
+> Using option "use_cuda=true" is recommended for better real time factor.
+RTF (CPU) around 25x realtime
+RTF (GPU) around 4x realtime
+* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
+
+See: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
+
+### Tacotron2 + DCA (DynamicConvolution Attention) & Fullband-MelGAN (universal) vocoder
+> RTF is less then 0.5 realtime
+* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA --vocoder_name vocoder_models/universal/libri-tts/fullband-melgan 
+
 ## Silero-models
 
 You can use a free A-GPL licensed models trained on this dataset via the [silero-models](https://github.com/snakers4/silero-models) project. The full list of models including their older version is available via this [yaml file](https://github.com/snakers4/silero-models/blob/master/models.yml).
