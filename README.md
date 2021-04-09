@@ -28,6 +28,15 @@
 # Introduction to "Thorsten-Voice" :speaking_head: :speech_balloon: :sloth:
 ## **A free to use, offline working, high quality german TTS voice should be available for every project without any license struggling.**
 
+[![CC-0 license](https://img.shields.io/badge/License-CC--0-blue.svg)](https://creativecommons.org/licenses/by-nd/4.0)
+![Maintaner](https://img.shields.io/badge/maintainer-Thorsten_Mueller-blue)
+<a href="https://twitter.com/intent/follow?screen_name=ThorstenVoice">
+        <img src="https://img.shields.io/twitter/follow/ThorstenVoice?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+
+
+
 Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
 
 ## True, but what is this all about
