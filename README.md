@@ -11,8 +11,7 @@
   - [Download information](#neutral-dataset-download-information)
 
 - [Voice "Thorsten" (emotional)](#dataset-Thorsten-emotional)
-  - [Samples of my emotional voice](#samples-of-my-emotional-voice)
-  - [Emotional dataset information :microphone:](#emotional-dataset-information-microphone)
+  - [Emotional dataset information and samples :microphone:](#emotional-dataset-information-and-samples-microphone)
   - [Emotional dataset download information](#emotional-dataset-download-information)
 
 - [Pretrained TTS models](#pretrained-tts-models)
@@ -115,16 +114,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 
 
 ## Dataset "Thorsten" emotional
-### Samples of my emotional voice
-*Btw. i mentioned, that i'm no professional voice talent, did i?*
-> "Mist, wieder nichts geschafft."
-* 
-* [disgusted](./samples/emotional_recording/disgusted.wav)
-* [angry](./samples/emotional_recording/angry.wav)
-* [amused](./samples/emotional_recording/amused.wav)
-* [surprised](./samples/emotional_recording/surprised.wav)
-* [sleepy](./samples/emotional_recording/sleepy.wav)
-### Emotional dataset information :microphone:
+### Emotional dataset information and samples :microphone:
 * 300 sentences * 6 emotions = 1.800 recordings
 * recorded by Thorsten Müller (optimized by Dominik Kreutz)
 * mono
@@ -133,14 +123,17 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 * no silence at beginning/ending
 * sentence length: 59 - 148 chars
 
+*Btw. i mentioned, that i'm no professional voice talent, did i?*
+> "Mist, wieder nichts geschafft."
+
 | Emotion   | Minutes | Sample |
 |-----------|---------| --------- | 
 | Neutral :slightly_smiling_face:    | 19 min. | [neutral sample](./samples/emotional_recording/neutral.wav) |
-| Disgusted :nauseated_face: | 23 min. | |
-| Angry :angry:    | 20 min. | |
-| Amused :grinning:    | 18 min. | |
-| Surprised :astonished: | 18 min. | |
-| Sleepy :pensive:    | 30 min. | |
+| Disgusted :nauseated_face: | 23 min. | [disgusted sample](./samples/emotional_recording/disgusted.wav) |
+| Angry :angry:    | 20 min. | [angry sample](./samples/emotional_recording/angry.wav) |
+| Amused :grinning:    | 18 min. | [amused sample](./samples/emotional_recording/amused.wav) |
+| Surprised :astonished: | 18 min. | [surprised sample](./samples/emotional_recording/surprised.wav) |
+| Sleepy :pensive:    | 30 min. | [sleepy sample](./samples/emotional_recording/sleepy.wav) |
 
 ### Emotional dataset download information
 > Download size: 300MB
