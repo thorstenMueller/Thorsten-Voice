@@ -118,7 +118,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 ### Samples of my emotional voice
 *Btw. i mentioned, that i'm no professional voice talent, did i?*
 > "Mist, wieder nichts geschafft."
-* [neutral](./samples/emotional_recording/neutral.wav)
+* 
 * [disgusted](./samples/emotional_recording/disgusted.wav)
 * [angry](./samples/emotional_recording/angry.wav)
 * [amused](./samples/emotional_recording/amused.wav)
@@ -133,14 +133,14 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 * no silence at beginning/ending
 * sentence length: 59 - 148 chars
 
-| Emotion   | Minutes |
-|-----------|---------|
-| Normal :slightly_smiling_face:    | 19 min. |
-| Disgusted :nauseated_face: | 23 min. |
-| Angry :angry:    | 20 min. |
-| Amused :grinning:    | 18 min. |
-| Surprised :astonished: | 18 min. |
-| Sleepy :pensive:    | 30 min. |
+| Emotion   | Minutes | Sample |
+|-----------|---------| --------- | 
+| Neutral :slightly_smiling_face:    | 19 min. | [neutral sample](./samples/emotional_recording/neutral.wav) |
+| Disgusted :nauseated_face: | 23 min. | |
+| Angry :angry:    | 20 min. | |
+| Amused :grinning:    | 18 min. | |
+| Surprised :astonished: | 18 min. | |
+| Sleepy :pensive:    | 30 min. | |
 
 ### Emotional dataset download information
 > Download size: 300MB
