@@ -356,3 +356,49 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 </table>
 
 </dl>
+
+
+# Silero models
+> Thanks [snakers4](https://github.com/snakers4/silero-models)  
+> Details: [Notebook von Silero](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb#scrollTo=indirect-berry)  
+
+<dl>
+
+<table>
+<thead>
+  <tr>
+    <th>Sample</th>
+    <th>Text</th>
+    <th>Audio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>01</td>
+    <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-silero.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Eure Tröte nervt</td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-silero.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-silero.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Euer Plan hat ja toll geklappt.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-silero.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample05-silero.wav"></audio></td>
+  </tr>
+</tbody>
+</table>
+
+</dl>
