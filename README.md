@@ -35,7 +35,7 @@
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 [![Audio comparison page](https://img.shields.io/badge/Audio_samples-TTS_comparison-92a0c0)](https://thorstenmueller.github.io/deep-learning-german-tts/audio_compare)
 
-
+> **A summary of my open german voice dataset is available on Wikipedia (https://de.wikipedia.org/wiki/Thorsten_(Stimme)) :heart_eyes:**
 
 Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
 
