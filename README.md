@@ -150,6 +150,8 @@ If you trained a model on "Thorsten" dataset please file an issue with some info
 
 My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through https://www.coqui.ai (:frog:)
 ## Coqui models
+
+### Easy pip install
 For all "Thorsten" coqui models i recommend setting up a virtual environment (*venv*).
 * mkdir ThorstenVoice
 * cd ThorstenVoice
@@ -157,19 +159,27 @@ For all "Thorsten" coqui models i recommend setting up a virtual environment (*v
 * source ./bin/activate
 * pip install -U pip
 * pip install -U tts
-* *start coqui server model with one of the following model combinations*
+* tts --list
+
+> tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
+
+or
+
+> tts-server --model_name tts_models/de/thorsten/tacotron2-DCA --vocoder_name vocoder_models/universal/libri-tts/fullband-melgan 
+
 * Open web-browser on http://localhost:5002
-### Tacotron2 + DCA (DynamicConvolution Attention) & WaveGrad vocoder
-> Using option "use_cuda=true" is recommended for better real time factor.
-RTF (CPU) around 25x realtime
-RTF (GPU) around 4x realtime
-* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
 
-See: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
+Check details here: > see: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
 
-### Tacotron2 + DCA (DynamicConvolution Attention) & Fullband-MelGAN (universal) vocoder
-> RTF is less then 0.5 realtime
-* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA --vocoder_name vocoder_models/universal/libri-tts/fullband-melgan 
+
+### Download Coqui trained checkpoints / config
+| Model name | Coqui Repo branch / commit | Release date | Google Drive Download Link |
+|----------------------------------|---------------------------------------------------|----------------------|--------------------------------------------------------------------------------------|
+| Thorsten Tacotron2 DCA           | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-04-02           | [Google Drive Thorsten Taco2 DCA](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) |
+| Thorsten Vocoder WaveGrad        | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-04-02           | [Google Drive Thorsten Vocoder WaveGrad](https://drive.google.com/drive/folders/1uOWpYH3yoDv5_3Dn_aDbAprEmyk1tDw5?usp=sharing) |
+| Thorsten Vocoder Fullband-MelGAN | master / 0ee3eeefb553678d56c49534f3972a426a254649 | training-in-progress | training-in-progress                                                                 |
+| Thorsten Vocoder HifiGAN         |                                                   | planned              | planned                                                                              |
+| Thorsten Vocoder WaveRNN         |                                                   | planned              | planned                                                                              |
 
 ## Silero-models
 
