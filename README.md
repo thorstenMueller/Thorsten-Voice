@@ -18,6 +18,8 @@
   - [Coqui models](#coqui-models)
   - [Pre-trained Silero-models](#silero-models)
 
+- [Public talks](#public-talks)
+
 - [Feel free to file an issue if you ...](#feel-free-to-file-an-issue-if-you-)
 - [Recommended projects / communities](#recommended-projects)
 - [Special thanks](#special-thanks)
@@ -191,6 +193,13 @@ You can use a free A-GPL licensed models trained on this dataset via the [silero
 | thorsten_16khz | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
 
 
+# Public talks
+> I really want to bring the topic "OpenVoice" to a bigger public attention, so i am happy to be invited as a speaker on that.
+
+I have been part of a Linux User Group podcast about Mycroft AI and talked on my TTS efforts on that in May 2021. I'll publish a link to that talk when it's released to the public.
+
+In addition to that i was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice" on june 2nd, 2021. This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s).
+If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing)
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
@@ -238,4 +247,3 @@ We'll hear us in future :speaking_head:
 
 Thorsten
 (https://twitter.com/ThorstenVoice)
-
