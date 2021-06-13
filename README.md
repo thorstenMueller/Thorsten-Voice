@@ -119,7 +119,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 
 ## Dataset "Thorsten" emotional
 ### Emotional dataset information and samples :microphone:
-* 300 sentences * 6 emotions = 1.800 recordings
+* 300 sentences * 8 emotions = 2.400 recordings
 * recorded by Thorsten Müller (optimized by Dominik Kreutz)
 * mono
 * samplerate 22.050Hz
@@ -138,13 +138,16 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 | Amused :grinning:    | 18 min. | [amused sample](./samples/emotional_recording/amused.wav) |
 | Surprised :astonished: | 18 min. | [surprised sample](./samples/emotional_recording/surprised.wav) |
 | Sleepy :pensive:    | 30 min. | [sleepy sample](./samples/emotional_recording/sleepy.wav) |
+| Drunk (*i was "not" drunk while recording!*) :dizzy_face:    | 25 min. | [drunk sample](./samples/emotional_recording/drunk.wav) |
+| Whispering 🤫    | 22 min. | [whispering sample](./samples/emotional_recording/whisper.wav) |
 
 ### Emotional dataset download information
-> Download size: 300MB
+> Download size: 350MB
 
 | Version         | Description                                                                                       | Date       | Link                                                                                                            |
 | --------------- | ------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
 | thorsten-de-emotional-v01 | Initial version                                                                                   | 2021-04-03 | [Google Drive Download v01](https://drive.google.com/file/d/1fm2IqXMLr6jaZCgG_Mt4vq_O3ZubiIQ6/view?usp=sharing) |
+| thorsten-de-emotional-v02 | Added emotions "drunk" and "whispering" version                                                                                   | 2021-06-13 | [Google Drive Download v02](https://drive.google.com/file/d/1qjji3qq5wpaNc-gew5QCFWjke8x4m83s/view?usp=sharing) |
 
 
 # Pretrained TTS models
