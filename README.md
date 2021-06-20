@@ -147,7 +147,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 | Version         | Description                                                                                       | Date       | Link                                                                                                            |
 | --------------- | ------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
 | thorsten-de-emotional-v01 | Initial version                                                                                   | 2021-04-03 | [Google Drive Download v01](https://drive.google.com/file/d/1fm2IqXMLr6jaZCgG_Mt4vq_O3ZubiIQ6/view?usp=sharing) |
-| thorsten-de-emotional-v02 | Added emotions "drunk" and "whispering" version                                                                                   | 2021-06-13 | [Google Drive Download v02](https://drive.google.com/file/d/1qjji3qq5wpaNc-gew5QCFWjke8x4m83s/view?usp=sharing) |
+| thorsten-de-emotional-v02 | Added emotions "drunk" and "whispering" version                                                                                   | 2021-06-13 | [Google Drive Download v02](https://drive.google.com/file/d/1FBZ4Cb4TQGwZiAzzj41yTBsdGp7yRQbS/view?usp=sharing) |
 
 
 # Pretrained TTS models
