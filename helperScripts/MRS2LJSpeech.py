@@ -9,18 +9,20 @@
 #           - See more details here: https://gist.github.com/manifestinteractive/6fd9be62d0ede934d4e1171e5e751aba
 #           - Thanks Peter, it's a great contribution :-)
 # v1.2  - Added choice for choosing which recording session should be exported as LJSpeech
+# v1.3  - Added parameter mrs_dir to pass directory of Mimic-Recording-Studio
 
 import glob
 import sqlite3
 import ffmpeg
 import os
+import argparse
+import sys
 
 from shutil import copyfile
 from shutil import rmtree
 
 # Setup Directory Data
 cwd = os.path.dirname(os.path.abspath(__file__))
-mrs_dir = os.path.join(cwd, os.pardir, "mimic-recording-studio")
 output_dir = os.path.join(cwd, "dataset")
 output_dir_audio = ""
 output_dir_audio_temp=""
@@ -77,7 +79,7 @@ def convert_audio():
   # Remove Temp Folder
   rmtree(output_dir_audio_temp)
 
-def create_meta_data():
+def create_meta_data(mrs_dir):
   print('→ Creating META Data')
 
   conn = sqlite3.connect(os.path.join(mrs_dir, "backend", "db", "mimicstudio.db"))
@@ -107,10 +109,17 @@ def create_meta_data():
   conn.close()
 
 def main():
+  parser = argparse.ArgumentParser()
+  parser.add_argument('--mrs_dir', required=True)
+  args = parser.parse_args()
+  
+  if not os.path.isdir(os.path.join(args.mrs_dir,"backend")):
+    sys.exit("Passed directory is no valid Mimic-Recording-Studio main directory!")
+
   print('\n\033[48;5;22m  MRS to LJ Speech Processor  \033[0m\n')
 
   create_folders()
-  create_meta_data()
+  create_meta_data(args.mrs_dir)
   convert_audio()
 
   print('\n\033[38;5;86;1m✔\033[0m COMPLETE【ツ】\n')
