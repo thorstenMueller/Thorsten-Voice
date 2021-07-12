@@ -10,7 +10,9 @@
 #           - Thanks Peter, it's a great contribution :-)
 # v1.2  - Added choice for choosing which recording session should be exported as LJSpeech
 # v1.3  - Added parameter mrs_dir to pass directory of Mimic-Recording-Studio
+# v1.4  - Script won't crash when audio recorded has been deleted on disk
 
+from genericpath import exists
 import glob
 import sqlite3
 import ffmpeg
@@ -102,8 +104,12 @@ def create_meta_data(mrs_dir):
 
 
   for row in c.execute('SELECT audio_id, prompt, lower(prompt) FROM audiomodel WHERE user_id = "' + user_id + '" ORDER BY length(prompt)'):
-    metadata.write(row[0] + "|" + row[1] + "|" + row[2] + "\n")
-    copyfile(os.path.join(mrs_dir, "backend", "audio_files", user_id, row[0] + ".wav"), os.path.join(output_dir_audio_temp, row[0] + ".wav"))
+    source_file = os.path.join(mrs_dir, "backend", "audio_files", user_id, row[0] + ".wav")
+    if exists(source_file):
+      metadata.write(row[0] + "|" + row[1] + "|" + row[2] + "\n")
+      copyfile(source_file, os.path.join(output_dir_audio_temp, row[0] + ".wav"))
+    else:
+      print("Wave file {} not found.".format(source_file))
 
   metadata.close()
   conn.close()
