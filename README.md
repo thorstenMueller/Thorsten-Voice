@@ -119,6 +119,8 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 
 ## Dataset "Thorsten" emotional
 ### Emotional dataset information and samples :microphone:
+> All emotional recordings where recorded by myself and i tried to feel and pronounce that emotion even if the phrase context does not match that emotion. Example: I pronounced the sleepy recordings in the tone i have shortly before falling asleep.
+
 * 300 sentences * 8 emotions = 2.400 recordings
 * recorded by Thorsten Müller (optimized by Dominik Kreutz)
 * mono
