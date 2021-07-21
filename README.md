@@ -206,6 +206,8 @@ I have been part of a Linux User Group podcast about Mycroft AI and talked on my
 In addition to that i was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice" on june 2nd, 2021. This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s).
 If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing)
 
+Whenever i've something about open voice in mind what i like to share my thoughts on i post a video on [Youtube](https://www.youtube.com/channel/UCjqqTVVBTsxpm0iOhQ1fp9g).
+
 # Feel free to file an issue if you ...
 * have improvements on dataset
 * use my TTS voice in your project(s)
