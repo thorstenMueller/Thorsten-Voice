@@ -7,7 +7,7 @@ RUN echo "deb https://repo.download.nvidia.com/jetson/common r32.4 main" >> /etc
 RUN echo "deb https://repo.download.nvidia.com/jetson/t194 r32.4 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
 
 RUN apt-get update -y
-RUN apt-get install vim python-mecab libmecab-dev cuda-toolkit-10-2 libcudnn8 libcudnn8-dev libsndfile1-dev -y
+RUN apt-get install vim python-mecab libmecab-dev cuda-toolkit-10-2 libcudnn8 libcudnn8-dev libsndfile1-dev locales -y
 
 # Setting some environment vars
 ENV LLVM_CONFIG=/usr/bin/llvm-config-9
@@ -19,6 +19,13 @@ ENV OPENBLAS_CORETYPE=ARMV8
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 LABEL com.nvidia.volumes.needed="nvidia_driver"
+
+# Adjust locale setting to your personal needs
+RUN sed -i '/de_DE.UTF-8/s/^# //g' /etc/locale.gen && \
+    locale-gen
+ENV LANG de_DE.UTF-8
+ENV LANGUAGE de_DE:de
+ENV LC_ALL de_DE.UTF-8
 
 RUN mkdir /coqui
 WORKDIR /coqui
