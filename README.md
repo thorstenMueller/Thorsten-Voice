@@ -15,7 +15,7 @@
   - [Emotional dataset download information](#emotional-dataset-download-information)
 
 - [Pretrained TTS models](#pretrained-tts-models)
-  - [Coqui models](#coqui-models)
+  - [Quick setup voice synthesizing with Coqui models](#quick-steps-for-synthesizing-voice)
   - [Pre-trained Silero-models](#silero-models)
 
 - [Public talks](#public-talks)
@@ -158,27 +158,23 @@ If you trained a model on "Thorsten" dataset please file an issue with some info
 My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through https://www.coqui.ai (:frog:)
 ## Coqui models
 
-### Easy pip install
+### Quick steps for synthesizing voice
 For all "Thorsten" coqui models i recommend setting up a virtual environment (*venv*).
+> Python 3.6 - 3.9 required
 * mkdir ThorstenVoice
 * cd ThorstenVoice
 * python3 -m venv .
 * source ./bin/activate
-* pip install -U pip
-* pip install -U tts
-* tts --list
-
-> tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
-
-or
-
-> tts-server --model_name tts_models/de/thorsten/tacotron2-DCA --vocoder_name vocoder_models/universal/libri-tts/fullband-melgan 
-
+* pip install -U pip TTS
+* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
 * Open web-browser on http://localhost:5002
 
-Check details here: > see: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
+Details: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11 or https://github.com/coqui-ai/TTS/releases/tag/v0.1.3 
 
+![Coqui web interface ](./img/CoquiWebThorstenVoice.png)
 
+Instead of web frontend you can call it by cli.
+> curl http://localhost:5002/api/tts?text=TEXT --output test.wav
 ### Download Coqui trained checkpoints / config
 | Model name | Coqui Repo branch / commit | Release date | Google Drive Download Link |
 |----------------------------------|---------------------------------------------------|----------------------|--------------------------------------------------------------------------------------|
