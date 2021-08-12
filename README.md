@@ -16,7 +16,8 @@
 
 - [Pretrained TTS models](#pretrained-tts-models)
   - [Quick setup voice synthesizing with Coqui models](#quick-steps-for-synthesizing-voice)
-  - [Pre-trained Silero-models](#silero-models)
+  - [Pre-trained Silero-models](#silero)
+  - [ZDisket TensorVox](#ZDisket)
 
 - [Public talks](#public-talks)
 
@@ -184,7 +185,7 @@ Instead of web frontend you can call it by cli.
 | Thorsten Vocoder HifiGAN         |                                                   | planned              | planned                                                                              |
 | Thorsten Vocoder WaveRNN         |                                                   | planned              | planned                                                                              |
 
-## Silero-models
+## Silero
 
 You can use a free A-GPL licensed models trained on this dataset via the [silero-models](https://github.com/snakers4/silero-models) project. The full list of models including their older version is available via this [yaml file](https://github.com/snakers4/silero-models/blob/master/models.yml).
 
@@ -193,7 +194,8 @@ You can use a free A-GPL licensed models trained on this dataset via the [silero
 | thorsten_8khz  | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
 | thorsten_16khz | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
 
-
+## ZDisket
+[ZDisket](https://github.com/ZDisket/) made a tool called [TensorVox](https://github.com/ZDisket/TensorVox) for setting up an TTS environment on Windows easily and included the german TTS model trained by [monatis](https://github.com/monatis/german-tts). Thanks for sharing that :thumbsup:. You can find more details on how to set up [here](https://github.com/ZDisket/TensorVox) or see it live in action on [Youtube](https://youtu.be/tY6_xZnkv-A).
 # Public talks
 > I really want to bring the topic "OpenVoice" to a bigger public attention, so i am happy to be invited as a speaker on that.
 
