@@ -181,7 +181,7 @@ Instead of web frontend you can call it by cli.
 |----------------------------------|---------------------------------------------------|----------------------|--------------------------------------------------------------------------------------|
 | Thorsten Tacotron2 DCA           | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-04-02           | [Google Drive Thorsten Taco2 DCA](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) |
 | Thorsten Vocoder WaveGrad        | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-04-02           | [Google Drive Thorsten Vocoder WaveGrad](https://drive.google.com/drive/folders/1uOWpYH3yoDv5_3Dn_aDbAprEmyk1tDw5?usp=sharing) |
-| Thorsten Vocoder Fullband-MelGAN | master / 0ee3eeefb553678d56c49534f3972a426a254649 | training-in-progress | training-in-progress                                                                 |
+| Thorsten Vocoder Fullband-MelGAN | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-07-26 | [Google Drive Thorsten Vocoder Fullband-MelGAN](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing) or [Coqui v0.1.3 model download](https://github.com/coqui-ai/TTS/releases/tag/v0.1.3)                                     |
 | Thorsten Vocoder HifiGAN         |                                                   | planned              | planned                                                                              |
 | Thorsten Vocoder WaveRNN         |                                                   | planned              | planned                                                                              |
 
