@@ -15,8 +15,9 @@
   - [Emotional dataset download information](#emotional-dataset-download-information)
 
 - [Pretrained TTS models](#pretrained-tts-models)
-  - [Coqui models](#coqui-models)
-  - [Pre-trained Silero-models](#silero-models)
+  - [Quick setup voice synthesizing with Coqui models](#quick-steps-for-synthesizing-voice)
+  - [Pre-trained Silero-models](#silero)
+  - [ZDisket TensorVox](#ZDisket)
 
 - [Public talks](#public-talks)
 
@@ -162,37 +163,33 @@ If you trained a model on "Thorsten" dataset please file an issue with some info
 My personal training sessions are based on TTS repo code (originally initiated by Mozilla) and now maintained through https://www.coqui.ai (:frog:)
 ## Coqui models
 
-### Easy pip install
+### Quick steps for synthesizing voice
 For all "Thorsten" coqui models i recommend setting up a virtual environment (*venv*).
+> Python 3.6 - 3.9 required
 * mkdir ThorstenVoice
 * cd ThorstenVoice
 * python3 -m venv .
 * source ./bin/activate
-* pip install -U pip
-* pip install -U tts
-* tts --list
-
-> tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
-
-or
-
-> tts-server --model_name tts_models/de/thorsten/tacotron2-DCA --vocoder_name vocoder_models/universal/libri-tts/fullband-melgan 
-
+* pip install -U pip TTS
+* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
 * Open web-browser on http://localhost:5002
 
-Check details here: > see: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11
+Details: https://github.com/coqui-ai/TTS/releases/tag/v0.0.11 or https://github.com/coqui-ai/TTS/releases/tag/v0.1.3 
 
+![Coqui web interface ](./img/CoquiWebThorstenVoice.png)
 
+Instead of web frontend you can call it by cli.
+> curl http://localhost:5002/api/tts?text=TEXT --output test.wav
 ### Download Coqui trained checkpoints / config
 | Model name | Coqui Repo branch / commit | Release date | Google Drive Download Link |
 |----------------------------------|---------------------------------------------------|----------------------|--------------------------------------------------------------------------------------|
 | Thorsten Tacotron2 DCA           | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-04-02           | [Google Drive Thorsten Taco2 DCA](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) |
 | Thorsten Vocoder WaveGrad        | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-04-02           | [Google Drive Thorsten Vocoder WaveGrad](https://drive.google.com/drive/folders/1uOWpYH3yoDv5_3Dn_aDbAprEmyk1tDw5?usp=sharing) |
-| Thorsten Vocoder Fullband-MelGAN | master / 0ee3eeefb553678d56c49534f3972a426a254649 | training-in-progress | training-in-progress                                                                 |
+| Thorsten Vocoder Fullband-MelGAN | master / 0ee3eeefb553678d56c49534f3972a426a254649 | 2021-07-26 | [Google Drive Thorsten Vocoder Fullband-MelGAN](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing) or [Coqui v0.1.3 model download](https://github.com/coqui-ai/TTS/releases/tag/v0.1.3)                                     |
 | Thorsten Vocoder HifiGAN         |                                                   | planned              | planned                                                                              |
 | Thorsten Vocoder WaveRNN         |                                                   | planned              | planned                                                                              |
 
-## Silero-models
+## Silero
 
 You can use a free A-GPL licensed models trained on this dataset via the [silero-models](https://github.com/snakers4/silero-models) project. The full list of models including their older version is available via this [yaml file](https://github.com/snakers4/silero-models/blob/master/models.yml).
 
@@ -201,7 +198,8 @@ You can use a free A-GPL licensed models trained on this dataset via the [silero
 | thorsten_8khz  | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
 | thorsten_16khz | m      | de       | [8000](https://drive.google.com/drive/folders/1mpQCK5E_IqhcSurnYuGePJiJWL4ZL08z?usp=sharing) / [16000](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) |
 
-
+## ZDisket
+[ZDisket](https://github.com/ZDisket/) made a tool called [TensorVox](https://github.com/ZDisket/TensorVox) for setting up an TTS environment on Windows easily and included the german TTS model trained by [monatis](https://github.com/monatis/german-tts). Thanks for sharing that :thumbsup:. You can find more details on how to set up [here](https://github.com/ZDisket/TensorVox) or see it live in action on [Youtube](https://youtu.be/tY6_xZnkv-A).
 # Public talks
 > I really want to bring the topic "OpenVoice" to a bigger public attention, so i am happy to be invited as a speaker on that.
 
