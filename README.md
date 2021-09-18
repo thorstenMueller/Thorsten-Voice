@@ -65,6 +65,10 @@ Speaking tech devices and voice based smart assistants are very popular ourdays.
 > For both datasets please keep in mind, that **i am no professional voice talent**. I'm just a normal guy sharing his voice with you.
 
 ## Dataset "Thorsten" neutral
+### NEW RECORDING-IN-PROGRESS SNEAK PREVIEW OOPS PREHEAR :speaking_head: :construction: :microphone:
+I am currently recording a new neutral dataset on a new corpus. This time with BETTER MICROPHONE, BETTER ROOM SITUATION, MORE NATURAL SPEECH FLOW right from the beginning. I've just recorded 8.000 recordings (much recording work remaining) but i share this dataset with you. Any feedback on quality, understandability or naturalness is highly appreciated and i can adjust my recording voice on furher recordings.
+> https://drive.google.com/file/d/1Pqdwrv63OnPnp5TVJt1PmrcBTIEx6Zko/view?usp=sharing
+
 ### Samples of my neutral voice
 To get an impression what my voice sounds to decide if it fits to your project i published some sample recordings, so no need to download complete dataset first.
 
