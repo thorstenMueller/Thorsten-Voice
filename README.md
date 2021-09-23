@@ -122,7 +122,7 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 | thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using ffmpeg atempo=1.1).                  | 2021-02-10 | [Google Drive Download v03](https://drive.google.com/file/d/134_UramfCRoAxRrOnhbPJ2YHHTwxRtr-/view?usp=sharing) |
 
 
-## Dataset "Thorsten" emotional
+## Dataset "Thorsten" emotional [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023)
 ### Emotional dataset information and samples :microphone:
 > All emotional recordings where recorded by myself and i tried to feel and pronounce that emotion even if the phrase context does not match that emotion. Example: I pronounced the sleepy recordings in the tone i have shortly before falling asleep.
 
