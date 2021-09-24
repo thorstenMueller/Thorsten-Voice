@@ -42,6 +42,12 @@
 
 [https://de.wikipedia.org/wiki/Thorsten_(Stimme)](https://de.wikipedia.org/wiki/Thorsten_(Stimme)) :smiley: 
 
+My datasets are listed on Zenodo with following DOIs:
+| Dataset         | DOI Link                                                                                                            |
+| --------------- | ------- |
+| Thorsten (neutral) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
+| Thorsten (emotional) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
+
 Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
 
 ## True, but what is this all about
@@ -65,7 +71,7 @@ Speaking tech devices and voice based smart assistants are very popular ourdays.
 
 > For both datasets please keep in mind, that **i am no professional voice talent**. I'm just a normal guy sharing his voice with you.
 
-## Dataset "Thorsten" neutral
+## Dataset "Thorsten" neutral [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
 ### NEW RECORDING-IN-PROGRESS SNEAK PREVIEW OOPS PREHEAR :speaking_head: :construction: :microphone:
 I am currently recording a new neutral dataset on a new corpus. This time with BETTER MICROPHONE, BETTER ROOM SITUATION, MORE NATURAL SPEECH FLOW right from the beginning. I've just recorded 8.000 recordings (much recording work remaining) but i share this dataset with you. Any feedback on quality, understandability or naturalness is highly appreciated and i can adjust my recording voice on furher recordings.
 > https://drive.google.com/file/d/1Pqdwrv63OnPnp5TVJt1PmrcBTIEx6Zko/view?usp=sharing
