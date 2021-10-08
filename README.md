@@ -72,6 +72,10 @@ Speaking tech devices and voice based smart assistants are very popular ourdays.
 > For both datasets please keep in mind, that **i am no professional voice talent**. I'm just a normal guy sharing his voice with you.
 
 ## Dataset "Thorsten" neutral [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
+
+Citation (Neutral):
+> Müller, Thorsten, & Kreutz, Dominik. (2021). Thorsten - Open German Voice (Neutral) Dataset (3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5525342
+
 ### NEW RECORDING-IN-PROGRESS SNEAK PREVIEW OOPS PREHEAR :speaking_head: :construction: :microphone:
 I am currently recording a new neutral dataset on a new corpus. This time with BETTER MICROPHONE, BETTER ROOM SITUATION, MORE NATURAL SPEECH FLOW right from the beginning. I've just recorded 8.000 recordings (much recording work remaining) but i share this dataset with you. Any feedback on quality, understandability or naturalness is highly appreciated and i can adjust my recording voice on furher recordings.
 > https://drive.google.com/file/d/1Pqdwrv63OnPnp5TVJt1PmrcBTIEx6Zko/view?usp=sharing
@@ -129,6 +133,9 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 
 
 ## Dataset "Thorsten" emotional [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023)
+
+Citation (Emotional):
+> Müller, Thorsten, & Kreutz, Dominik. (2021). Thorsten - Open German Voice (Emotional) Dataset (2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5525023
 ### Emotional dataset information and samples :microphone:
 > All emotional recordings where recorded by myself and i tried to feel and pronounce that emotion even if the phrase context does not match that emotion. Example: I pronounced the sleepy recordings in the tone i have shortly before falling asleep.
 
