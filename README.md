@@ -38,10 +38,6 @@
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 [![Audio comparison page](https://img.shields.io/badge/Audio_samples-TTS_comparison-92a0c0)](https://thorstenmueller.github.io/deep-learning-german-tts/audio_compare)
 
-**A summary of my open german voice dataset is available on Wikipedia**
-
-[https://de.wikipedia.org/wiki/Thorsten_(Stimme)](https://de.wikipedia.org/wiki/Thorsten_(Stimme)) :smiley: 
-
 My datasets are listed on Zenodo with following DOIs:
 | Dataset         | DOI Link                                                                                                            |
 | --------------- | ------- |
