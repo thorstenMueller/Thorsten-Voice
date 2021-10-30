@@ -402,3 +402,48 @@ Originalaufnahmen aus dem "thorsten" Dataset.
 </table>
 
 </dl>
+
+# Forward Tacotron
+> Thanks [cschaefer26](https://github.com/as-ideas/ForwardTacotron)  
+> Config: Forward-Tacotron, trained to 300k, alpha set to 0.8, pretrained HifiGAN vocoder
+
+<dl>
+
+<table>
+<thead>
+  <tr>
+    <th>Sample</th>
+    <th>Text</th>
+    <th>Audio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>01</td>
+    <td>Eure Schoko-Bonbons sind sagenhaft lecker</td>
+    <td><audio controls="" preload="none"><source src="samples/sample01-ForwardTacotron-HifiGAN.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Eure Tröte nervt</td>
+    <td><audio controls="" preload="none"><source src="samples/sample02-ForwardTacotron-HifiGAN.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Europa und Asien zusammengenommen wird auch als Eurasien bezeichnet</td>
+    <td><audio controls="" preload="none"><source src="samples/sample03-ForwardTacotron-HifiGAN.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Euer Plan hat ja toll geklappt.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample04-ForwardTacotron-HifiGAN.wav"></audio></td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön.</td>
+    <td><audio controls="" preload="none"><source src="samples/sample05-ForwardTacotron-HifiGAN.wav"></audio></td>
+  </tr>
+</tbody>
+</table>
+
+</dl>
