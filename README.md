@@ -46,6 +46,10 @@ My datasets are listed on Zenodo with following DOIs:
 
 Speaking tech devices and voice based smart assistants are very popular ourdays. But for providing nice sounding TTS lot of projects depend on big tech cloud services for synthezing voice. While quality is quite good, there remain critical aspects like **privacy concerns** and **missing offline availablitiy**.
 
+:arrow_right: http://www.Thorsten-Voice.de
+
+:arrow_right: https://OpenVoice-Tech.net
+
 ## True, but what is this all about
 > I want to (*hopefully*) fill that german TTS gap and make the most personal contribution i can give.<br>
 **I contribute my personal voice!** :green_heart:
