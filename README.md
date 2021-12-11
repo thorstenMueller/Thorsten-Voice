@@ -73,9 +73,6 @@ Speaking tech devices and voice based smart assistants are very popular ourdays.
 
 ## Dataset "Thorsten" neutral [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
 
-Citation (Neutral):
-> Müller, Thorsten, & Kreutz, Dominik. (2021). Thorsten - Open German Voice (Neutral) Dataset (3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5525342
-
 ### NEW RECORDING-IN-PROGRESS SNEAK PREVIEW OOPS PREHEAR :speaking_head: :construction: :microphone:
 I am currently recording a new neutral dataset on a new corpus. This time with BETTER MICROPHONE, BETTER ROOM SITUATION, MORE NATURAL SPEECH FLOW right from the beginning. I've just recorded 8.000 recordings (much recording work remaining) but i share this dataset with you. Any feedback on quality, understandability or naturalness is highly appreciated and i can adjust my recording voice on furher recordings.
 > https://drive.google.com/file/d/1Pqdwrv63OnPnp5TVJt1PmrcBTIEx6Zko/view?usp=sharing
@@ -123,19 +120,26 @@ If you wanna use just a dataset subset (phase1 and/or phase2 and/or phase3) you 
 
 
 ### Neutral dataset download information
-> Download size: 2,7GB
+> Download: https://zenodo.org/record/5525342 (*2,7GB*)
 
-| Version         | Description                                                                                       | Date       | Link                                                                                                            |
-| --------------- | ------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
-| thorsten-de-v01 | Initial version                                                                                   | 2020-06-28 | [Google Drive Download v01](https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing) |
-| thorsten-de-v02 | Normalized to -24dB and split metadata.csv into shuffeled metadata_train.csv and metadata_val.csv | 2020-08-22 | [Google Drive Download v02](https://drive.google.com/file/d/1mGWfG0s2V2TEg-AI2m85tze1m4pyeM7b/view?usp=sharing) |
-| thorsten-de-v03 | Based on v02 dataset, but with increased speed by 10% (using ffmpeg atempo=1.1).                  | 2021-02-10 | [Google Drive Download v03](https://drive.google.com/file/d/134_UramfCRoAxRrOnhbPJ2YHHTwxRtr-/view?usp=sharing) |
-
+```
+ @dataset{muller_thorsten_2021_5525342,
+   author       = {Müller, Thorsten and
+                    Kreutz, Dominik},
+    title        = {Thorsten - Open German Voice (Neutral) Dataset},
+    month        = feb,
+    year         = 2021,
+    note         = {{Please use it to make the world a better place for 
+                    whole humankind.}},
+    publisher    = {Zenodo},
+    version      = {3.0},
+    doi          = {10.5281/zenodo.5525342},
+    url          = {https://doi.org/10.5281/zenodo.5525342}
+  }
+```
 
 ## Dataset "Thorsten" emotional [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023)
 
-Citation (Emotional):
-> Müller, Thorsten, & Kreutz, Dominik. (2021). Thorsten - Open German Voice (Emotional) Dataset (2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5525023
 ### Emotional dataset information and samples :microphone:
 > All emotional recordings where recorded by myself and i tried to feel and pronounce that emotion even if the phrase context does not match that emotion. Example: I pronounced the sleepy recordings in the tone i have shortly before falling asleep.
 
@@ -162,13 +166,23 @@ Citation (Emotional):
 | Whispering 🤫    | 22 min. | [whispering sample](./samples/emotional_recording/whisper.wav) |
 
 ### Emotional dataset download information
-> Download size: 350MB
+> Download: https://zenodo.org/record/5525023 (*size 350MB*)
 
-| Version         | Description                                                                                       | Date       | Link                                                                                                            |
-| --------------- | ------------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
-| thorsten-de-emotional-v01 | Initial version                                                                                   | 2021-04-03 | [Google Drive Download v01](https://drive.google.com/file/d/1fm2IqXMLr6jaZCgG_Mt4vq_O3ZubiIQ6/view?usp=sharing) |
-| thorsten-de-emotional-v02 | Added emotions "drunk" and "whispering" version                                                                                   | 2021-06-13 | [Google Drive Download v02](https://drive.google.com/file/d/1FBZ4Cb4TQGwZiAzzj41yTBsdGp7yRQbS/view?usp=sharing) |
-
+```
+@dataset{muller_thorsten_2021_5525023,
+  author       = {Müller, Thorsten and
+                  Kreutz, Dominik},
+  title        = {Thorsten - Open German Voice (Emotional) Dataset},
+  month        = jun,
+  year         = 2021,
+  note         = {{Please use it to make the world a better place for 
+                   whole humankind.}},
+  publisher    = {Zenodo},
+  version      = {2.0},
+  doi          = {10.5281/zenodo.5525023},
+  url          = {https://doi.org/10.5281/zenodo.5525023}
+}
+```
 
 # Pretrained TTS models
 If you trained a model on "Thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated.
