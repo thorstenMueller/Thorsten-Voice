@@ -230,12 +230,10 @@ You can use a free A-GPL licensed models trained on this dataset via the [silero
 # Public talks
 > I really want to bring the topic "OpenVoice" to a bigger public attention, so i am happy to be invited as a speaker on that.
 
-I have been part of a Linux User Group podcast about Mycroft AI and talked on my TTS efforts on that in May 2021. I'll publish a link to that talk when it's released to the public.
-
-In addition to that i was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice" on june 2nd, 2021. This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s).
-If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing)
-
-Whenever i've something about open voice in mind what i like to share my thoughts on i post a video on [Youtube](https://www.youtube.com/channel/UCjqqTVVBTsxpm0iOhQ1fp9g).
+* I have been part of a Linux User Group podcast about Mycroft AI and talked on my TTS efforts on that in May 2021. I'll publish a link to that talk when it's released to the public.
+* In addition to that i was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice" on june 2nd, 2021. This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s). If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing)
+* Whenever i've something about open voice in mind what i like to share my thoughts on i post a video on [Youtube](https://www.youtube.com/c/ThorstenMueller).
+* I've been invited as speaker on VoiceLunch language & linguistics on 03.01.2022. [Here are my slides](https://docs.google.com/presentation/d/1Gi6BmYHs7g4ZgdAiIKGBnBwZDCvJOD9DJxQOGlgds1o/edit?usp=sharing).
 
 # Feel free to file an issue if you ...
 * have improvements on dataset
