@@ -61,6 +61,9 @@ def convert_audio():
   
   print('→ Converting %s Audio Files to 22050 Hz, 16 Bit, Mono\n' % "{:,}".format(recordings))
 
+  # Please use `pip install ffmpeg-python`
+  import ffmpeg
+
   for idx, wav in enumerate(glob.glob(os.path.join(output_dir_audio_temp, "*.wav"))):
 
     percent = (idx + 1) / recordings
@@ -75,11 +78,6 @@ def convert_audio():
       .run(capture_stdout=True)
     )
 
-    # Delete Temp File
-    os.remove(wav)
-
-  # Remove Temp Folder
-  rmtree(output_dir_audio_temp)
 
 def copy_audio():
   global output_dir_audio
@@ -90,7 +88,7 @@ def copy_audio():
   print('→ Copy %s Audio Files to LJSpeech Dataset\n' % "{:,}".format(recordings))
 
   for idx, wav in enumerate(glob.glob(os.path.join(output_dir_audio_temp, "*.wav"))):    
-    shutil.copyfile(wav,os.path.join(output_dir_audio, os.path.basename(wav)))
+    copyfile(wav,os.path.join(output_dir_audio, os.path.basename(wav)))
 
 def create_meta_data(mrs_dir):
   print('→ Creating META Data')
@@ -125,6 +123,12 @@ def create_meta_data(mrs_dir):
   metadata.close()
   conn.close()
 
+def cleanup():
+  global output_dir_audio_temp
+
+  # Remove Temp Folder
+  rmtree(output_dir_audio_temp)
+
 def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--mrs_dir', required=True)
@@ -140,11 +144,12 @@ def main():
   create_meta_data(args.mrs_dir)
 
   if(args.ffmpeg):
-    import ffmpeg
     convert_audio()
   
   else:
     copy_audio()
+  
+  cleanup()
 
   print('\n\033[38;5;86;1m✔\033[0m COMPLETE【ツ】\n')
 
