@@ -11,11 +11,11 @@
 # v1.2  - Added choice for choosing which recording session should be exported as LJSpeech
 # v1.3  - Added parameter mrs_dir to pass directory of Mimic-Recording-Studio
 # v1.4  - Script won't crash when audio recorded has been deleted on disk
+# v1.5  - Added parameter "ffmpeg" to make converting with ffmpeg optional
 
 from genericpath import exists
 import glob
 import sqlite3
-import ffmpeg
 import os
 import argparse
 import sys
@@ -81,6 +81,17 @@ def convert_audio():
   # Remove Temp Folder
   rmtree(output_dir_audio_temp)
 
+def copy_audio():
+  global output_dir_audio
+
+  print('→ Using ffmpeg to convert recordings')
+  recordings = len([name for name in os.listdir(output_dir_audio_temp) if os.path.isfile(os.path.join(output_dir_audio_temp,name))])
+  
+  print('→ Copy %s Audio Files to LJSpeech Dataset\n' % "{:,}".format(recordings))
+
+  for idx, wav in enumerate(glob.glob(os.path.join(output_dir_audio_temp, "*.wav"))):    
+    shutil.copyfile(wav,os.path.join(output_dir_audio, os.path.basename(wav)))
+
 def create_meta_data(mrs_dir):
   print('→ Creating META Data')
 
@@ -117,6 +128,7 @@ def create_meta_data(mrs_dir):
 def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('--mrs_dir', required=True)
+  parser.add_argument('--ffmpeg', required=False, default=False)
   args = parser.parse_args()
   
   if not os.path.isdir(os.path.join(args.mrs_dir,"backend")):
@@ -126,7 +138,13 @@ def main():
 
   create_folders()
   create_meta_data(args.mrs_dir)
-  convert_audio()
+
+  if(args.ffmpeg):
+    import ffmpeg
+    convert_audio()
+  
+  else:
+    copy_audio()
 
   print('\n\033[38;5;86;1m✔\033[0m COMPLETE【ツ】\n')
 
