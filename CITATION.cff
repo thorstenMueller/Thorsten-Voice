@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Thorsten-Voice
+message: >-
+  Please cite Thorsten-Voice project if you use
+  datasets or trained TTS models.
+type: dataset
+authors:
+  - given-names: Thorsten
+    family-names: Müller
+    email: tm@thorsten-voice.de
+  - given-names: Dominik
+    family-names: Kreutz
+repository-code: 'https://github.com/thorstenMueller/Thorsten-Voice'
+url: 'https://www.Thorsten-Voice.de'
+abstract: >-
+  A free to use, offline working, high quality german
+  TTS voice should be available for every project
+  without any license struggling.
+keywords:
+  - Thorsten
+  - Voice
+  - Open
+  - German
+  - TTS
+  - Dataset
