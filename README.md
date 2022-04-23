@@ -15,6 +15,8 @@
   
 - [Public talks](#public-talks)
 
+- [My Youtube channel](#youtube-channel)
+
 - [Special Thanks](#thanks-section)
 
 
@@ -174,7 +176,10 @@ I really want to bring the topic "**Open Voice For An Open Future**" to a bigger
 * I was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice". This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s). If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing) (*June 2021*)
 )
 * I've been invited as speaker on VoiceLunch language & linguistics on 03.01.2022. [Here are my slides](https://docs.google.com/presentation/d/1Gi6BmYHs7g4ZgdAiIKGBnBwZDCvJOD9DJxQOGlgds1o/edit?usp=sharing) (*January 2022*).
-* In addition i share my thoughts and knowledge on Open Voice on my [Youtube channel](https://www.youtube.com/c/ThorstenMueller).
+
+# Youtube channel
+In summer 2021 i've started to share my lessons learned and experiences on open voice tech, in special **TTS** on my little [Youtube channel](https://www.youtube.com/c/ThorstenMueller). If you check out and like my videos i'd happy to welcome you as subscriber and member of my little Youtube community.
+
 
 # Feel free to file an issue if you ...
 * Use my TTS voice in your project(s)
