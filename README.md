@@ -11,7 +11,6 @@
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
   - [Thorsten-22.05-VITS](#thorsten-2205-vits)
   - [Thorsten-22.05-Tacotron2-DDC](#thorsten-2205-tacotron2-ddc)
-  - [Audio samples](#tts-audio-samples)
   - [Other models](#other-models)
   
 - [Public talks](#public-talks)
