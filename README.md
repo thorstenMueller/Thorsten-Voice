@@ -40,7 +40,7 @@ Voice datasets are listed on Zenodo:
 | --------------- | ------- |
 | Thorsten-21.02-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
 | Thorsten-21.06-emotional | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
-| Thorsten-21.05-neutral | soon to come |
+| Thorsten-22.05-neutral | soon to come |
 
 ## Thorsten-21.02-neutral
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
