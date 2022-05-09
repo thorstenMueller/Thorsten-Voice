@@ -1,3 +1,5 @@
+![Thorsten-Voice logo](Logo_Thorsten-Voice.png)
+
 - [Project motivation](#motivation-for-thorsten-voice-project-speaking_head-speech_balloon)
   
 - [Personal note](#some-personal-words-before-using-thorsten-voice)
