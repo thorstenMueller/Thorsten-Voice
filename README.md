@@ -1,3 +1,5 @@
+![Thorsten-Voice logo](Logo_Thorsten-Voice-kleiner.jpg)
+
 - [Project motivation](#motivation-for-thorsten-voice-project-speaking_head-speech_balloon)
   
 - [Personal note](#some-personal-words-before-using-thorsten-voice)
@@ -18,6 +20,9 @@
 - [My Youtube channel](#youtube-channel)
 
 - [Special Thanks](#thanks-section)
+
+
+![Thorsten-Voice logo](Logo_Thorsten-Voice.png)
 
 
 # Motivation for Thorsten-Voice project :speaking_head: :speech_balloon:
