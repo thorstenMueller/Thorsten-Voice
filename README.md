@@ -25,8 +25,6 @@
 # Motivation for Thorsten-Voice project :speaking_head: :speech_balloon:
 A **free** to use, **offline** working, **high quality** **german** **TTS** voice should be available for every project without any license struggling.
 
-
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 <a href="https://twitter.com/intent/follow?screen_name=ThorstenVoice"><img src="https://img.shields.io/twitter/follow/ThorstenVoice?style=social&logo=twitter" alt="follow on Twitter"></a>
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCjqqTVVBTsxpm0iOhQ1fp9g?style=social)](https://www.youtube.com/c/ThorstenMueller)
 [![Project website](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)](https://www.Thorsten-Voice.de)
@@ -151,7 +149,12 @@ Run the model:
 
 ## Thorsten-22.05-VITS
 Trained on dataset **Thorsten-22.05-neutral**.
-> TODO
+Audio samples are available on [Thorsten-Voice website](https://www.thorsten-voice.de/en/just-get-started/).
+
+To run TTS server just follow these steps:
+* pip install tts==0.7.1
+* tts-server --model_name tts_models/de/thorsten/vits
+* Open browser on http://localhost:5002 and enjoy playing
 
 ## Thorsten-22.05-Tacotron2-DDC
 Trained on dataset [**Thorsten-22.05-neutral**](#thorsten-2205-neutral).
