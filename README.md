@@ -12,7 +12,7 @@
 - [**Thorsten** TTS-Models](#tts-models)
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
   - [Thorsten-22.05-VITS](#thorsten-2205-vits)
-  - [Thorsten-22.05-Tacotron2-DDC](#thorsten-2205-tacotron2-ddc)
+  - [Thorsten-22.08-Tacotron2-DDC](#thorsten-2208-tacotron2-ddc)
   - [Other models](#other-models)
   
 - [Public talks](#public-talks)
@@ -156,11 +156,14 @@ To run TTS server just follow these steps:
 * tts-server --model_name tts_models/de/thorsten/vits
 * Open browser on http://localhost:5002 and enjoy playing
 
-## Thorsten-22.05-Tacotron2-DDC
+## Thorsten-22.08-Tacotron2-DDC
 Trained on dataset [**Thorsten-22.05-neutral**](#thorsten-2205-neutral).
-> :speaking_head: **Listen to synthesized samples [here](https://drive.google.com/drive/folders/1cZlLYkLWKtF0cZQ74Pef8fJ8fiG1G7du?usp=sharing).**
+Audio samples are available on [Thorsten-Voice website]([https://www.thorsten-voice.de/en/just-get-started/](https://www.thorsten-voice.de/2022/08/14/welches-tts-modell-klingt-besser/)).
 
-Soon to come.
+To run TTS server just follow these steps:
+* pip install tts==0.8.0
+* tts-server --model_name tts_models/de/thorsten/tacotron2-DDC
+* Open browser on http://localhost:5002 and enjoy playing
 
 
 ## Other models
