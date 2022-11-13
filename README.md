@@ -7,7 +7,7 @@
 - [**Thorsten** Voice Datasets](#voice-datasets)
   - [Thorsten-21.02-neutral](#thorsten-2102-neutral)
   - [Thorsten-21.06-emotional](#thorsten-2106-emotional)
-  - [Thorsten-22.05-neutral](#thorsten-2205-neutral)
+  - [Thorsten-22.10-neutral](#thorsten-2210-neutral)
 
 - [**Thorsten** TTS-Models](#tts-models)
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
@@ -40,7 +40,7 @@ Voice datasets are listed on Zenodo:
 | --------------- | ------- |
 | Thorsten-21.02-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
 | Thorsten-21.06-emotional | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
-| Thorsten-22.05-neutral | soon to come |
+| Thorsten-22.10-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265581.svg)](https://doi.org/10.5281/zenodo.7265581) |
 
 ## Thorsten-21.02-neutral
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
@@ -132,10 +132,23 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 * Sentence length: 59 - 148 chars
 
 
-## Thorsten-22.05-neutral
+## Thorsten-22.10-neutral
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265581.svg)](https://doi.org/10.5281/zenodo.7265581)
 > :speaking_head: **Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).**
 
-Soon to come
+```
+@dataset{muller_thorsten_2022_7265581,
+  author       = {Müller, Thorsten and
+                  Kreutz, Dominik},
+  title        = {ThorstenVoice Dataset 2022.10},
+  month        = oct,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.7265581},
+  url          = {https://doi.org/10.5281/zenodo.7265581
+}
+```
 
 # TTS Models
 
