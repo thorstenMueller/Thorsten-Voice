@@ -29,6 +29,16 @@ A **free** to use, **offline** working, **high quality** **german** **TTS** voic
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCjqqTVVBTsxpm0iOhQ1fp9g?style=social)](https://www.youtube.com/c/ThorstenMueller)
 [![Project website](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)](https://www.Thorsten-Voice.de)
 
+# Social media
+Please check and follow me on my social media profiles - Thank you.
+
+| Platform         | Link                                                                                                            |
+| --------------- | ------- |
+| Youtube | [ThorstenVoice on Youtube](https://www.youtube.com/c/ThorstenMueller) |
+| Twitter | [ThorstenVoice on Twitter](https://twitter.com/ThorstenVoice) |
+| Instagram | [ThorstenVoice on Instagram](https://www.instagram.com/thorsten_voice/) |
+| LinkedIn | [Thorsten Müller on LinkedIn](https://www.linkedin.com/in/thorsten-m%C3%BCller-848a344/) |
+
 # Some personal words before using **Thorsten-Voice**
 > I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone. :earth_africa: (*Thorsten Müller*)
 
