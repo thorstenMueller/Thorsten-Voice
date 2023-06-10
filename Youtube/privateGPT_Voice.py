@@ -1,6 +1,6 @@
 # Script is originally taken from https://github.com/imartinez/privateGPT/blob/main/privateGPT.py
 # and i've added some STT and TTS stuff.
-# See tutorial on my Youtube channel here: 
+# See full tutorial on my "Thorsten-Voice" Youtube channel: https://youtu.be/qBs85JNyY7I
 
 from dotenv import load_dotenv
 from langchain.chains import RetrievalQA
