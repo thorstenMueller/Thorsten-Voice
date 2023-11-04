@@ -123,14 +123,15 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 ### Samples
 Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
-* :slightly_smiling_face: [Neutral](./samples/thorsten-21.06-emotional/neutral.wav)
-* :nauseated_face: [Disgusted](./samples/thorsten-21.06-emotional/disgusted.wav)
-* :angry: [Angry](./samples/thorsten-21.06-emotional/angry.wav)
-* :grinning: [Amused](./samples/thorsten-21.06-emotional/amused.wav)
-* :astonished: [Surprised](./samples/thorsten-21.06-emotional/surprised.wav)
-* :pensive: [Sleepy](./samples/thorsten-21.06-emotional/sleepy.wav)
-* :dizzy_face: [Drunk](./samples/thorsten-21.06-emotional/drunk.wav)
-* 🤫 [Whispering](./samples/thorsten-21.06-emotional/whisper.wav)
+* :slightly_smiling_face: [Neutral](./samples/thorsten-21.06-emotional/Mp4/neutral.mp4)
+* :nauseated_face: [Disgusted](./samples/thorsten-21.06-emotional/Mp4/disgusted.mp4)
+* :angry: [Angry](./samples/thorsten-21.06-emotional/Mp4/angry.mp4)
+* :grinning: [Amused](./samples/thorsten-21.06-emotional/Mp4/amused.mp4)
+* :astonished: [Surprised](./samples/thorsten-21.06-emotional/Mp4/surprised.mp4)
+* :pensive: [Sleepy](./samples/thorsten-21.06-emotional/Mp4/sleepy.mp4)
+* :dizzy_face: [Drunk](./samples/thorsten-21.06-emotional/Mp4/drunk.mp4)
+* 🤫 [Whispering](./samples/thorsten-21.06-emotional/Mp4/whisper.mp4)
+
 ### Dataset summary
 * Recorded by Thorsten Müller
 * Optimized by Dominik Kreutz
