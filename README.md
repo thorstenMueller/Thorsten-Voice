@@ -123,14 +123,14 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 ### Samples
 Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
-* :slightly_smiling_face: [Neutral](./samples/thorsten-21.06-emotional/Mp4/neutral.mp4)
-* :nauseated_face: [Disgusted](./samples/thorsten-21.06-emotional/Mp4/disgusted.mp4)
-* :angry: [Angry](./samples/thorsten-21.06-emotional/Mp4/angry.mp4)
-* :grinning: [Amused](./samples/thorsten-21.06-emotional/Mp4/amused.mp4)
-* :astonished: [Surprised](./samples/thorsten-21.06-emotional/Mp4/surprised.mp4)
-* :pensive: [Sleepy](./samples/thorsten-21.06-emotional/Mp4/sleepy.mp4)
-* :dizzy_face: [Drunk](./samples/thorsten-21.06-emotional/Mp4/drunk.mp4)
-* 🤫 [Whispering](./samples/thorsten-21.06-emotional/Mp4/whisper.mp4)
+* :slightly_smiling_face: [Neutral](https://github.com/R-802/Thorsten-Voice/assets/109842181/23ffc3cf-9962-47d9-b28e-2be36f1bcec5)
+* :nauseated_face: [Disgusted](https://github.com/R-802/Thorsten-Voice/assets/109842181/8c00edb4-296b-4ee7-ae24-41ab86d42e3a)
+* :angry: [Angry](https://github.com/R-802/Thorsten-Voice/assets/109842181/041713b0-1157-49e8-ae43-91c5519e0d6e)
+* :grinning: [Amused](https://github.com/R-802/Thorsten-Voice/assets/109842181/2d1ac029-b268-4575-a96f-617c25dd1d6e)
+* :astonished: [Surprised](https://github.com/R-802/Thorsten-Voice/assets/109842181/77567e3b-b099-44f3-b1fa-80bd25b88190)
+* :pensive: [Sleepy](https://github.com/R-802/Thorsten-Voice/assets/109842181/4d1f7500-32c8-4679-988c-d4feda295ee9)
+* :dizzy_face: [Drunk](https://github.com/R-802/Thorsten-Voice/assets/109842181/4cf2ae4a-381a-4509-8141-b724bfc6cb1b)
+* 🤫 [Whispering](https://github.com/R-802/Thorsten-Voice/assets/109842181/0993106b-cbb2-4b3a-823b-c4657bf0939e)
 
 ### Dataset summary
 * Recorded by Thorsten Müller
