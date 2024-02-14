@@ -8,6 +8,7 @@
   - [Thorsten-21.02-neutral](#thorsten-2102-neutral)
   - [Thorsten-21.06-emotional](#thorsten-2106-emotional)
   - [Thorsten-22.10-neutral](#thorsten-2210-neutral)
+  - [Thorsten-23.09-hessisch](#thorsten-2309-hessisch)
 
 - [**Thorsten** TTS-Models](#tts-models)
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
@@ -25,9 +26,9 @@
 # Motivation for Thorsten-Voice project :speaking_head: :speech_balloon:
 A **free** to use, **offline** working, **high quality** **german** **TTS** voice should be available for every project without any license struggling.
 
-<a href="https://twitter.com/intent/follow?screen_name=ThorstenVoice"><img src="https://img.shields.io/twitter/follow/ThorstenVoice?style=social&logo=twitter" alt="follow on Twitter"></a>
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCjqqTVVBTsxpm0iOhQ1fp9g?style=social)](https://www.youtube.com/c/ThorstenMueller)
-[![Project website](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)](https://www.Thorsten-Voice.de)
+<a href="https://twitter.com/intent/follow?screen_name=ThorstenVoice"><img src="https://img.shields.io/twitter/follow/ThorstenVoice?style=social&logo=twitter" alt="follow on Twitter"></a>
+[![Web](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)](https://www.Thorsten-Voice.de)
 
 # Social media
 Please check and follow me on my social media profiles - Thank you.
@@ -51,6 +52,7 @@ Voice datasets are listed on Zenodo:
 | Thorsten-21.02-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
 | Thorsten-21.06-emotional | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
 | Thorsten-22.10-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265581.svg)](https://doi.org/10.5281/zenodo.7265581) |
+| Thorsten-23.09-Hessisch | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10511260.svg)](https://doi.org/10.5281/zenodo.10511260) |
 
 ## Thorsten-21.02-neutral
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
@@ -157,6 +159,22 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
   version      = {1.0},
   doi          = {10.5281/zenodo.7265581},
   url          = {https://doi.org/10.5281/zenodo.7265581
+}
+```
+
+## Thorsten-23.09-Hessisch
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10511260.svg)](https://doi.org/10.5281/zenodo.10511260)
+
+```
+@dataset{muller_2024_10511260,
+  author       = {Müller, Thorsten and
+                  Kreutz, Dominik},
+  title        = {Thorsten-Voice Dataset 2023.09 Hessisch},
+  month        = jan,
+  year         = 2024,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.10511260},
+  url          = {https://doi.org/10.5281/zenodo.10511260}
 }
 ```
 
