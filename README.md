@@ -43,11 +43,12 @@ Feel free to contact me on social media 🤗.
 | Youtube | [ThorstenVoice on Youtube](https://www.youtube.com/c/ThorstenMueller) |
 | LinkedIn | [Thorsten Müller on LinkedIn](https://www.linkedin.com/in/thorsten-m%C3%BCller-848a344/) |
 | Twitter | [ThorstenVoice on Twitter](https://twitter.com/ThorstenVoice) |
+| Huggingface | [ThorstenVoice on Huggingface](https://huggingface.co/Thorsten-Voice) |
 | Instagram | [ThorstenVoice on Instagram](https://www.instagram.com/thorsten_voice/) |
 
 
 # Voice-Datasets
-All my "Thorsten-Voice" datasets are listed and downloadable on Zenodo:
+All my "Thorsten-Voice" datasets are listed and downloadable on Zenodo. Qoutation is highly appreciated in case you use them in your projects, products or papers.
 | Dataset         | DOI Link                                                                                                            |
 | --------------- | ------- |
 | Thorsten-Voice Dataset 2021.02 (Neutral) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
@@ -59,11 +60,11 @@ All my "Thorsten-Voice" datasets are listed and downloadable on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
 
 ```
-@dataset{muller_thorsten_2021_5525342,
+@dataset{muller_2021_5525342,
   author       = {Müller, Thorsten and
                   Kreutz, Dominik},
-  title        = {Thorsten-Voice - "Thorsten-21.02-neutral" Dataset},
-  month        = feb,
+  title        = {Thorsten-Voice Dataset 2021.02},
+  month        = sep,
   year         = 2021,
   note         = {{Please use it to make the world a better place for 
                    whole humankind.}},
@@ -103,12 +104,11 @@ If you want to use a dataset subset you can see which files belong to which reco
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023)
 
 ```
-@dataset{muller_thorsten_2021_5525023,
+@dataset{muller_2021_5525023,
   author       = {Müller, Thorsten and
                   Kreutz, Dominik},
-  title        = {{Thorsten-Voice - "Thorsten-21.06-emotional" 
-                   Dataset}},
-  month        = jun,
+  title        = {Thorsten-Voice Dataset 2021.06 emotional},
+  month        = sep,
   year         = 2021,
   note         = {{Please use it to make the world a better place for 
                    whole humankind.}},
@@ -121,17 +121,6 @@ If you want to use a dataset subset you can see which files belong to which reco
 
 All emotional recordings where recorded by myself and i tried to feel and pronounce that emotion even if the phrase context does not match that emotion. Example: I pronounced the sleepy recordings in the tone i have shortly before falling asleep.
 
-### Samples
-Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
-
-* :slightly_smiling_face: [Neutral](./samples/thorsten-21.06-emotional/neutral.wav)
-* :nauseated_face: [Disgusted](./samples/thorsten-21.06-emotional/disgusted.wav)
-* :angry: [Angry](./samples/thorsten-21.06-emotional/angry.wav)
-* :grinning: [Amused](./samples/thorsten-21.06-emotional/amused.wav)
-* :astonished: [Surprised](./samples/thorsten-21.06-emotional/surprised.wav)
-* :pensive: [Sleepy](./samples/thorsten-21.06-emotional/sleepy.wav)
-* :dizzy_face: [Drunk](./samples/thorsten-21.06-emotional/drunk.wav)
-* 🤫 [Whispering](./samples/thorsten-21.06-emotional/whisper.wav)
 ### Dataset summary
 * Recorded by Thorsten Müller
 * Optimized by Dominik Kreutz
@@ -148,16 +137,16 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 > :speaking_head: **Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).**
 
 ```
-@dataset{muller_thorsten_2022_7265581,
+@dataset{muller_2022_7265581,
   author       = {Müller, Thorsten and
                   Kreutz, Dominik},
-  title        = {ThorstenVoice Dataset 2022.10},
-  month        = oct,
+  title        = {Thorsten-Voice Dataset 2022.10},
+  month        = nov,
   year         = 2022,
   publisher    = {Zenodo},
   version      = {1.0},
   doi          = {10.5281/zenodo.7265581},
-  url          = {https://doi.org/10.5281/zenodo.7265581
+  url          = {https://doi.org/10.5281/zenodo.7265581}
 }
 ```
 
