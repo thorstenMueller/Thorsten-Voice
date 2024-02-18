@@ -163,7 +163,7 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 # TTS Models
 Based on these opensource voice datasets several TTS (text to speech) models have been trained using AI / machine learning technology.
 
-There are multiple german models available trained and used by by the projects **Coqui AI**, **Piper TTS** and **Home Assistant**. You can find more information on how to use them, audio samples and video tutorials on the [Thorsten-Voice project website](https://www.Thorsten-Voice.de).
+There are multiple german models available trained and used by by the projects [**Coqui AI**](https://github.com/coqui-ai/TTS/), [**Piper TTS**](https://github.com/rhasspy/piper) and [**Home Assistant**](https://www.home-assistant.io/). You can find more information on how to use them, audio samples and video tutorials on the [Thorsten-Voice project website](https://www.Thorsten-Voice.de).
 
 Listen to audio samples and installation / usage instructions here (🇩🇪):
 * [Neutral TTS](https://www.thorsten-voice.de/kostenloses-deutsches-text-to-speech-tts/)
