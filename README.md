@@ -16,8 +16,6 @@
 
 - [My Youtube channel](#youtube-channel)
 
-- [Special Thanks](#thanks-section)
-
 
 # Motivation for Thorsten-Voice project :speaking_head: :speech_balloon:
 A **free** to use, **offline** working, **high quality** **german** **TTS** voice should be available for every project without any license struggling.
@@ -165,6 +163,8 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 # TTS Models
 Based on these opensource voice datasets several TTS (text to speech) models have been trained using AI / machine learning technology.
 
+There are models available trained on the projects by **Coqui AI**, **Piper TTS**, **Silero** and **ZDisket**. You can find more information on how to use them, audio samples and video tutorials on the [Thorsten-Voice project website](https://www.Thorsten-Voice.de).
+
 ## Thorsten-22.05-VITS
 Trained on dataset **Thorsten-22.05-neutral**.
 Audio samples are available on [Thorsten-Voice website](https://www.thorsten-voice.de/en/just-get-started/).
@@ -197,7 +197,7 @@ You can use a free A-GPL licensed models trained on **Thorsten-21.02-neutral** d
 # Support & Thanks
 If you like my voice contribution and would like to support my effort for an opensource voice technology future, you can support me, if you like:
 
-* Subscribe to my "[https://youtube.com/@ThorstenMueller/](Thorsten-Voice)" youtube channel and follow me on my social media profiles
+* Subscribe and share my [https://youtube.com/@ThorstenMueller/](Thorsten-Voice) youtube channel and follow me on my social media profiles
 * Buy me a tea using [Ko-Fi](https://ko-fi.com/thorstenvoice) or [Github sponsor](https://github.com/sponsors/thorstenMueller)
 
 I want to say thank you to great people who supported me on this journey with nice words, support and compute power:
@@ -206,16 +206,8 @@ Thanks [El-Tocino](https://github.com/el-tocino/), [Eren Gölge](https://github.
 Special thanks to my dear colleague, Sebastian Kraus, for supporting me with audio recording equipment and for being the creative mastermind behind the logo design and of course to the dear **Dominik** ([@domcross](https://github.com/domcross/)) for him being so close by my side on this amazing journey.
 
 
-
-
-
 # Public talks
-I really want to bring the topic "**Open Voice For An Open Future**" to a bigger public attention.
+I really like to talk about the importance of an opensource voice technology future. If you would like me to be a speaker on a conference or event i'd happy to be contacted using the Thorsten-Voice [website contact form](https://www.thorsten-voice.de/en/contact/).
 
-* I've been part of a Linux User Group podcast about Mycroft AI and talked on my TTS efforts on that in (*May 2021*).
-* I was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice". This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s). If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing) (*June 2021*)
-)
-* I've been invited as speaker on VoiceLunch language & linguistics on 03.01.2022. [Here are my slides](https://docs.google.com/presentation/d/1Gi6BmYHs7g4ZgdAiIKGBnBwZDCvJOD9DJxQOGlgds1o/edit?usp=sharing) (*January 2022*).
-
-# Youtube channel
+# "Thorsten-Voice" Youtube channel
 In summer 2021 i've started to share my lessons learned and experiences on open voice tech, in special **TTS** on my little [Youtube channel](https://www.youtube.com/c/ThorstenMueller). If you check out and like my videos i'd happy to welcome you as subscriber and member of my little Youtube community.
