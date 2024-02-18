@@ -5,10 +5,10 @@
 - [Personal note](#some-personal-words-before-using-thorsten-voice)
 
 - [**Thorsten** Voice Datasets](#voice-datasets)
-  - [Thorsten-Voice Dataset 2021.02 (Neutral)](#thorsten-voice-dataset-2021.02-neutral)
-  - [Thorsten-Voice Dataset 2021.06 (Emotional)](#thorsten-voice-dataset-2021.06-(emotional))
-  - [Thorsten-Voice Dataset 2022.10 (Neutral)](#thorsten-voice-dataset-2022.10-(neutral))
-  - [Thorsten-Voice Dataset 2023.09 (Hessisch)](#thorsten-voice-dataset-2023.09-(hessisch))
+  - [Thorsten-Voice Dataset 2021.02 (Neutral)](#thorsten-voice-dataset-202102-neutral)
+  - [Thorsten-Voice Dataset 2021.06 (Emotional)](#thorsten-voice-dataset-202106-emotional)
+  - [Thorsten-Voice Dataset 2022.10 (Neutral)](#thorsten-voice-dataset-202210-neutral)
+  - [Thorsten-Voice Dataset 2023.09 (Hessisch)](#thorsten-voice-dataset-202309-hessisch)
 
 - [**Thorsten** TTS-Models](#tts-models)
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
