@@ -163,36 +163,17 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 # TTS Models
 Based on these opensource voice datasets several TTS (text to speech) models have been trained using AI / machine learning technology.
 
-There are models available trained on the projects by **Coqui AI**, **Piper TTS**, **Silero** and **ZDisket**. You can find more information on how to use them, audio samples and video tutorials on the [Thorsten-Voice project website](https://www.Thorsten-Voice.de).
+There are multiple german models available trained and used by by the projects **Coqui AI**, **Piper TTS** and **Home Assistant**. You can find more information on how to use them, audio samples and video tutorials on the [Thorsten-Voice project website](https://www.Thorsten-Voice.de).
 
-## Thorsten-22.05-VITS
-Trained on dataset **Thorsten-22.05-neutral**.
-Audio samples are available on [Thorsten-Voice website](https://www.thorsten-voice.de/en/just-get-started/).
+Listen to audio samples and installation / usage instructions here (🇩🇪):
+* [Neutral TTS](https://www.thorsten-voice.de/kostenloses-deutsches-text-to-speech-tts/)
+* [Emotional TTS](https://www.thorsten-voice.de/emotionales-tts/)
+* [Hessisches TTS](https://www.thorsten-voice.de/guude/)
+* [Smarthome / Home Assistant](https://www.thorsten-voice.de/home-assistant-thorsten-voice/)
 
-To run TTS server just follow these steps:
-* pip install tts==0.7.1
-* tts-server --model_name tts_models/de/thorsten/vits
-* Open browser on http://localhost:5002 and enjoy playing
+In addition Silero, Monatis and ZDisket used my voice datasets for model training too. More samples and details can be found on [Silero Thorsten-Voice audio samples](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing). See this [colab notebook](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb) for more details.
 
-## Thorsten-22.08-Tacotron2-DDC
-Trained on dataset [**Thorsten-22.05-neutral**](#thorsten-2205-neutral).
-Audio samples are available on [Thorsten-Voice website]([https://www.thorsten-voice.de/en/just-get-started/](https://www.thorsten-voice.de/2022/08/14/welches-tts-modell-klingt-besser/)).
-
-To run TTS server just follow these steps:
-* pip install tts==0.8.0
-* tts-server --model_name tts_models/de/thorsten/tacotron2-DDC
-* Open browser on http://localhost:5002 and enjoy playing
-
-
-## Silero
-
-You can use a free A-GPL licensed models trained on **Thorsten-21.02-neutral** dataset via the [silero-models](https://github.com/snakers4/silero-models/blob/master/models.yml) project.
-
-* [Thorsten 16kHz](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing)
-* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb)
-
-## ZDisket
-[ZDisket](https://github.com/ZDisket/TensorVox) made a tool called TensorVox for setting up an TTS environment on Windows and included a german TTS model trained by [monatis](https://github.com/monatis/german-tts). Thanks for sharing that :thumbsup:. See it in action on [Youtube](https://youtu.be/tY6_xZnkv-A).
+[ZDisket](https://github.com/ZDisket/TensorVox) made a tool called TensorVox for setting up an TTS environment on Windows and included a german TTS model trained by [monatis](https://github.com/monatis/german-tts). Thanks for sharing that. See it in action on [Youtube](https://youtu.be/tY6_xZnkv-A).
 
 # Support & Thanks
 If you like my voice contribution and would like to support my effort for an opensource voice technology future, you can support me, if you like:
@@ -207,7 +188,7 @@ Special thanks to my dear colleague, Sebastian Kraus, for supporting me with aud
 
 
 # Public talks
-I really like to talk about the importance of an opensource voice technology future. If you would like me to be a speaker on a conference or event i'd happy to be contacted using the Thorsten-Voice [website contact form](https://www.thorsten-voice.de/en/contact/).
+I really like to talk about the importance of an opensource voice technology future. If you would like me to be a speaker on a conference or event i'd happy to be contacted using the Thorsten-Voice [website contact form](https://www.thorsten-voice.de/en/contact/). See some of my speaker references on [Thorsten-Voice website](https://www.thorsten-voice.de/en/speaker-public-talks/).
 
 # "Thorsten-Voice" Youtube channel
 In summer 2021 i've started to share my lessons learned and experiences on open voice tech, in special **TTS** on my little [Youtube channel](https://www.youtube.com/c/ThorstenMueller). If you check out and like my videos i'd happy to welcome you as subscriber and member of my little Youtube community.
