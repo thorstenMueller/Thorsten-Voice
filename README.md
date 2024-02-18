@@ -5,10 +5,10 @@
 - [Personal note](#some-personal-words-before-using-thorsten-voice)
 
 - [**Thorsten** Voice Datasets](#voice-datasets)
-  - [Thorsten-21.02-neutral](#thorsten-2102-neutral)
-  - [Thorsten-21.06-emotional](#thorsten-2106-emotional)
-  - [Thorsten-22.10-neutral](#thorsten-2210-neutral)
-  - [Thorsten-23.09-hessisch](#thorsten-2309-hessisch)
+  - [Thorsten-Voice Dataset 2021.02 (Neutral)](#thorsten-voice-dataset-2021.02-neutral)
+  - [Thorsten-Voice Dataset 2021.06 (Emotional)](#thorsten-voice-dataset-2021.06-(emotional))
+  - [Thorsten-Voice Dataset 2022.10 (Neutral)](#thorsten-voice-dataset-2022.10-(neutral))
+  - [Thorsten-Voice Dataset 2023.09 (Hessisch)](#thorsten-voice-dataset-2023.09-(hessisch))
 
 - [**Thorsten** TTS-Models](#tts-models)
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
@@ -50,12 +50,12 @@ Feel free to contact me on social media 🤗.
 All my "Thorsten-Voice" datasets are listed and downloadable on Zenodo:
 | Dataset         | DOI Link                                                                                                            |
 | --------------- | ------- |
-| Thorsten-21.02-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
-| Thorsten-21.06-emotional | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
-| Thorsten-22.10-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265581.svg)](https://doi.org/10.5281/zenodo.7265581) |
-| Thorsten-23.09-Hessisch | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10511260.svg)](https://doi.org/10.5281/zenodo.10511260) |
+| Thorsten-Voice Dataset 2021.02 (Neutral) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
+| Thorsten-Voice Dataset 2021.06 (Emotional) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
+| Thorsten-Voice Dataset 2022.10 (Neutral) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265581.svg)](https://doi.org/10.5281/zenodo.7265581) |
+| Thorsten-Voice Dataset 2023.09 (Hessisch) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10511260.svg)](https://doi.org/10.5281/zenodo.10511260) |
 
-## Thorsten-21.02-neutral
+## Thorsten-Voice Dataset 2021.02 (Neutral)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
 
 ```
@@ -99,7 +99,7 @@ As described in the PDF document ([evolution of thorsten dataset](./EvolutionOfT
 If you want to use a dataset subset you can see which files belong to which recording phase in [recording quality](./RecordingQuality.csv) csv file.
 
 
-## Thorsten-21.06-emotional
+## Thorsten-Voice Dataset 2021.06 (Emotional)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023)
 
 ```
@@ -143,7 +143,7 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 * Sentence length: 59 - 148 chars
 
 
-## Thorsten-22.10-neutral
+## Thorsten-Voice Dataset 2022.10 (Neutral)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265581.svg)](https://doi.org/10.5281/zenodo.7265581)
 > :speaking_head: **Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).**
 
@@ -161,7 +161,7 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 }
 ```
 
-## Thorsten-23.09-Hessisch
+## Thorsten-Voice Dataset 2023.09 (Hessisch)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10511260.svg)](https://doi.org/10.5281/zenodo.10511260)
 
 ```
