@@ -11,10 +11,10 @@
   - [Thorsten-Voice Dataset 2023.09 (Hessisch)](#thorsten-voice-dataset-202309-hessisch)
 
 - [**Thorsten** TTS-Models](#tts-models)
-  
-- [Public talks](#public-talks)
 
-- [My Youtube channel](#youtube-channel)
+- [Thorsten-Voice youtube channel](#thorsten-voice-youtube-channel)  
+
+- [Public talks & conference speaker](#conference-speaker)
 
 
 # Motivation for Thorsten-Voice project :speaking_head: :speech_balloon:
@@ -178,7 +178,7 @@ In addition Silero, Monatis and ZDisket used my voice datasets for model trainin
 # Support & Thanks
 If you like my voice contribution and would like to support my effort for an opensource voice technology future, you can support me, if you like:
 
-* Subscribe and share my [https://youtube.com/@ThorstenMueller/](Thorsten-Voice) youtube channel and follow me on my social media profiles
+* Subscribe and share my [Thorsten-Voice](https://youtube.com/@ThorstenMueller/) youtube channel and follow me on my social media profiles
 * Buy me a tea using [Ko-Fi](https://ko-fi.com/thorstenvoice) or [Github sponsor](https://github.com/sponsors/thorstenMueller)
 
 I want to say thank you to great people who supported me on this journey with nice words, support and compute power:
@@ -186,9 +186,8 @@ Thanks [El-Tocino](https://github.com/el-tocino/), [Eren Gölge](https://github.
 
 Special thanks to my dear colleague, Sebastian Kraus, for supporting me with audio recording equipment and for being the creative mastermind behind the logo design and of course to the dear **Dominik** ([@domcross](https://github.com/domcross/)) for him being so close by my side on this amazing journey.
 
+# "Thorsten-Voice" youtube channel
+On my [Thorsten-Voice youtube channel](https://www.youtube.com/c/ThorstenMueller) you can find step by step (cooking recipes) tutorial on opensource voice technology. If you're interested i'd be happy to welcome you as new subscriber on my wonderful youtube community.TS** on my little .
 
-# Public talks
+# Conference speaker
 I really like to talk about the importance of an opensource voice technology future. If you would like me to be a speaker on a conference or event i'd happy to be contacted using the Thorsten-Voice [website contact form](https://www.thorsten-voice.de/en/contact/). See some of my speaker references on [Thorsten-Voice website](https://www.thorsten-voice.de/en/speaker-public-talks/).
-
-# "Thorsten-Voice" Youtube channel
-In summer 2021 i've started to share my lessons learned and experiences on open voice tech, in special **TTS** on my little [Youtube channel](https://www.youtube.com/c/ThorstenMueller). If you check out and like my videos i'd happy to welcome you as subscriber and member of my little Youtube community.
