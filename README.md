@@ -9,6 +9,7 @@
   - [Thorsten-Voice Dataset 2021.06 (Emotional)](#thorsten-voice-dataset-202106-emotional)
   - [Thorsten-Voice Dataset 2022.10 (Neutral)](#thorsten-voice-dataset-202210-neutral)
   - [Thorsten-Voice Dataset 2023.09 (Hessisch)](#thorsten-voice-dataset-202309-hessisch)
+  - [Thorsten-Voice Dataset FULL 44kHz](#thorsten-voice-dataset-full-44khz)
 
 - [**Thorsten** TTS-Models](#tts-models)
 
@@ -39,7 +40,6 @@ Feel free to contact me on social media 🤗.
 | Twitter | [ThorstenVoice on Twitter](https://twitter.com/ThorstenVoice) |
 | Huggingface | [ThorstenVoice on Huggingface](https://huggingface.co/Thorsten-Voice) |
 | Instagram | [ThorstenVoice on Instagram](https://www.instagram.com/thorsten_voice/) |
-
 
 # Voice-Datasets
 All my "Thorsten-Voice" datasets are listed and downloadable on Zenodo. Qoutation is highly appreciated in case you use them in your projects, products or papers.
@@ -157,6 +157,22 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.10511260},
   url          = {https://doi.org/10.5281/zenodo.10511260}
+}
+```
+
+## Thorsten-Voice Dataset FULL 44kHz
+Celebrating 🎉 **5 years of Thorsten-Voice** project (est. october 2019) i released **ALL recordings in FULL samplerate (44kHz)** in an ALL-IN-ONE dataset on 🤗HuggingFace! Obviously again in CC0 license!
+
+* https://huggingface.co/datasets/Thorsten-Voice/TV-44kHz-Full
+
+```
+@misc {thorsten_müller_2024,
+    author       = { {Thorsten Müller} },
+    title        = { TV-44kHz-Full (Revision ff427ec) },
+    year         = 2024,
+    url          = { https://huggingface.co/datasets/Thorsten-Voice/TV-44kHz-Full },
+    doi          = { 10.57967/hf/3290 },
+    publisher    = { Hugging Face }
 }
 ```
 
