@@ -1,0 +1,48 @@
+services:
+  cosyvoice-tts:
+    build: .
+    image: thorstenvoice/cosyvoice-tts:cosyvoice3
+    ports:
+      - "8000:8000"
+    volumes:
+      # Model cache: downloaded once, reused across container restarts
+      - cosyvoice_models:/app/CosyVoice/pretrained_models
+    environment:
+      - PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 600s
+
+  # GPU variant - only on Linux with NVIDIA GPU
+  # Usage: docker compose --profile gpu up
+  cosyvoice-tts-gpu:
+    build: .
+    image: thorstenvoice/cosyvoice-tts:cosyvoice3
+    profiles: ["gpu"]
+    ports:
+      - "8000:8000"
+    volumes:
+      - cosyvoice_models:/app/CosyVoice/pretrained_models
+    environment:
+      - PORT=8000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 600s
+
+volumes:
+  cosyvoice_models:
