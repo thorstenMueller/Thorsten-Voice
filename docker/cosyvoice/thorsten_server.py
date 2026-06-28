@@ -22,6 +22,9 @@ import numpy as np
 
 logging.getLogger('matplotlib').setLevel(logging.WARNING)
 
+import pyloudnorm as pyln
+from german_transliterate.core import GermanTransliterate as _GermanTransliterate
+
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT_DIR)
 sys.path.insert(0, os.path.join(ROOT_DIR, 'third_party/Matcha-TTS'))
@@ -37,6 +40,14 @@ from cosyvoice.cli.cosyvoice import CosyVoice3
 
 cosyvoice = None
 
+# Lautstärkenormalisierung
+TRUE_PEAK_DB = -1.5
+SAMPLE_RATE  = 24000
+meter        = pyln.Meter(SAMPLE_RATE)
+
+# Textnormalisierung
+transliterator = _GermanTransliterate(replace={';': ',', ':': ','}, sep_abbreviation=' -- ')
+
 app = FastAPI(title="Thorsten-Voice TTS Server", version="1.0")
 app.add_middleware(
     CORSMiddleware,
@@ -45,6 +56,23 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+def normalize_text_fn(text: str) -> str:
+    return transliterator.transliterate(text)
+
+
+def apply_loudnorm(audio_tensor, sample_rate: int, lufs_target: float) -> "torch.Tensor":
+    audio_np = audio_tensor.numpy().flatten().astype("float64")
+    loudness = meter.integrated_loudness(audio_np)
+    if not (float("-inf") < loudness < 0):
+        return audio_tensor
+    normalized = pyln.normalize.loudness(audio_np, loudness, lufs_target)
+    tp_linear = 10 ** (TRUE_PEAK_DB / 20)
+    peak = float(np.abs(normalized).max())
+    if peak > tp_linear:
+        normalized = normalized / peak * tp_linear
+    return torch.from_numpy(normalized.astype("float32")).unsqueeze(0)
 
 
 def patch_frontend(model):
@@ -76,29 +104,44 @@ async def health():
 async def tts(
     text: str = Form(..., description="Text to synthesize"),
     speed: float = Form(1.0, description="Speech speed (0.5–2.0)"),
+    normalize_text: bool = Form(False, description="Apply german_transliterate (numbers, abbreviations)"),
+    normalize_loudness: bool = Form(False, description="Apply EBU R128 loudness normalization"),
+    lufs_target: float = Form(-23.0, description="Target loudness in LUFS (e.g. -23 = broadcast, -16 = web)"),
 ):
     """
     Synthesize German text with Thorsten-Voice.
 
     Returns a WAV audio file.
 
-    Example:
+    Examples:
         curl -X POST http://localhost:8000/tts \\
              -F "text=Hallo Welt" \\
+             --output output.wav
+
+        curl -X POST http://localhost:8000/tts \\
+             -F "text=Am 26. Juni 2026 wurden 3 Mrd. Euro investiert." \\
+             -F "normalize_text=true" \\
+             -F "normalize_loudness=true" \\
+             -F "lufs_target=-16" \\
              --output output.wav
     """
     if not text.strip():
         return JSONResponse(status_code=400, content={"error": "Text must not be empty"})
 
     try:
+        input_text = normalize_text_fn(text) if normalize_text else text
+
         all_audio = []
-        for chunk in cosyvoice.inference_sft(text, 'thorsten', stream=False, speed=speed):
+        for chunk in cosyvoice.inference_sft(input_text, 'thorsten', stream=False, speed=speed):
             all_audio.append(chunk['tts_speech'])
 
         if not all_audio:
             return JSONResponse(status_code=500, content={"error": "No audio output"})
 
         final_audio = torch.cat(all_audio, dim=1)
+        if normalize_loudness:
+            final_audio = apply_loudnorm(final_audio, cosyvoice.sample_rate, lufs_target)
+
         duration = final_audio.shape[1] / cosyvoice.sample_rate
         wav_buffer = audio_to_wav_bytes(final_audio, cosyvoice.sample_rate)
 
@@ -120,6 +163,9 @@ async def tts(
 async def tts_batch(
     texts: str = Form(..., description="Multiple texts separated by newline"),
     speed: float = Form(1.0),
+    normalize_text: bool = Form(False, description="Apply german_transliterate"),
+    normalize_loudness: bool = Form(False, description="Apply EBU R128 loudness normalization"),
+    lufs_target: float = Form(-23.0, description="Target loudness in LUFS"),
 ):
     """
     Synthesize multiple texts and return a single WAV file.
@@ -127,6 +173,7 @@ async def tts_batch(
     Example:
         curl -X POST http://localhost:8000/tts_batch \\
              -F $'texts=Erster Satz.\\nZweiter Satz.' \\
+             -F "normalize_text=true" \\
              --output batch.wav
     """
     text_list = [t.strip() for t in texts.split('\n') if t.strip()]
@@ -135,10 +182,14 @@ async def tts_batch(
 
     all_audio = []
     for text in text_list:
-        for chunk in cosyvoice.inference_sft(text, 'thorsten', stream=False, speed=speed):
+        input_text = normalize_text_fn(text) if normalize_text else text
+        for chunk in cosyvoice.inference_sft(input_text, 'thorsten', stream=False, speed=speed):
             all_audio.append(chunk['tts_speech'])
 
     final_audio = torch.cat(all_audio, dim=1)
+    if normalize_loudness:
+        final_audio = apply_loudnorm(final_audio, cosyvoice.sample_rate, lufs_target)
+
     wav_buffer = audio_to_wav_bytes(final_audio, cosyvoice.sample_rate)
 
     return StreamingResponse(

@@ -47,7 +47,7 @@ COPY install_onnxruntime.sh /tmp/install_onnxruntime.sh
 RUN chmod +x /tmp/install_onnxruntime.sh && /tmp/install_onnxruntime.sh
 
 # Server dependencies
-RUN pip install fastapi uvicorn python-multipart huggingface_hub
+RUN pip install fastapi uvicorn python-multipart "huggingface_hub[cli]" pyloudnorm german-transliterate
 
 # Compatibility fix for Matcha-TTS
 RUN echo "" > third_party/Matcha-TTS/matcha/utils/__init__.py
