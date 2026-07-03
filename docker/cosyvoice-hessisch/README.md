@@ -182,6 +182,10 @@ This container uses the [Thorsten-Voice/CosyVoice3-Hessisch](https://huggingface
 
 **Note on the vocoder:** the LLM and Flow components are fine-tuned on Hessian dialect; the HiFi-GAN vocoder is the original base-model vocoder, not dialect-specific. In our testing, fine-tuning the vocoder on this comparatively small dataset degraded audio quality rather than improving it.
 
+## Credits
+
+Text normalization (`normalize_text`) uses [german_transliterate](https://github.com/repodiac/german_transliterate) by [repodiac](https://github.com/repodiac) — thank you for this great open-source library.
+
 ## Links
 
 - [Thorsten-Voice Website](https://www.thorsten-voice.de)

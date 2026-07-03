@@ -184,6 +184,10 @@ GPU is ~16x faster than CPU. Even a mid-range GPU will significantly outperform 
 
 This container uses the [Thorsten-Voice/CosyVoice3](https://huggingface.co/Thorsten-Voice/CosyVoice3) model, fine-tuned from [FunAudioLLM/Fun-CosyVoice3-0.5B-2512](https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512) on the [Thorsten-Voice 2022.10](https://www.thorsten-voice.de) dataset.
 
+## Credits
+
+Text normalization (`normalize_text`) uses [german_transliterate](https://github.com/repodiac/german_transliterate) by [repodiac](https://github.com/repodiac) — thank you for this great open-source library.
+
 ## Links
 
 - [Thorsten-Voice Website](https://www.thorsten-voice.de)
