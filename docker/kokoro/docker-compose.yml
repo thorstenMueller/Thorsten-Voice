@@ -1,0 +1,20 @@
+services:
+  thorsten-kokoro-tts:
+    build: .
+    image: thorsten-voice/kokoro-tts:latest
+    container_name: thorsten-kokoro-tts
+    ports:
+      - "8000:8000"
+    environment:
+      # Checkpoint: "5" (Default) oder 1-4/6-10
+      - KOKORO_EPOCH=5
+      # "cpu" (funktioniert überall) oder "cuda" (nur mit NVIDIA-GPU + passendem Torch-Build)
+      - KOKORO_DEVICE=cpu
+    volumes:
+      # Damit das Modell nicht bei jedem Neustart erneut von Hugging Face
+      # heruntergeladen werden muss.
+      - hf-cache:/data/hf-cache
+    restart: unless-stopped
+
+volumes:
+  hf-cache:
