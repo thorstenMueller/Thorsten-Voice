@@ -1,0 +1,15 @@
+# CPU-Build von PyTorch (klein, funktioniert auf Linux/Windows/Mac ohne GPU)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+huggingface_hub==0.25.1
+soundfile==0.12.1
+numpy==1.26.4
+torch==2.4.1
+
+# Deutsche Forks von misaki (G2P) und kokoro (Inferenz), siehe Model Card:
+# https://huggingface.co/Thorsten-Voice/Kokoro-Hessisch
+git+https://github.com/semidark/misaki.git@6d252a2e02f3b030f22f56686f1a73786c16ffc8
+git+https://github.com/semidark/kokoro.git
